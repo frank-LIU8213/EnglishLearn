@@ -1,39 +1,95 @@
 /**
- * FrameSpeak · 语音朗读
+ * FrameSpeak · 语音朗读（全平台兼容版）
+ *
+ * 策略：
+ *   1. 主方案 → 在线 TTS 音频（有道词典 API），通过 <audio> 元素播放
+ *      所有浏览器、所有设备都支持 <audio>，100% 兼容。
+ *   2. 降级方案 → Web Speech API（speechSynthesis）
+ *      仅在在线 TTS 加载失败（如离线/网络故障）时自动降级。
  */
 
-export function speak(text, lang = 'en-US') {
+// 复用同一个 Audio 实例，避免反复创建
+let _audio = null;
+function getAudio() {
+  if (!_audio) {
+    _audio = new Audio();
+    _audio.volume = 1;
+  }
+  return _audio;
+}
+
+/**
+ * 生成在线 TTS 音频 URL
+ * 有道词典 TTS 接口，免费、稳定、无 CORS 限制
+ */
+function getTTSUrl(text) {
+  return `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(text)}&type=2`;
+}
+
+/**
+ * 使用 Web Speech API 作为降级方案
+ */
+function speakFallback(text, lang = 'en-US') {
   if (!window.speechSynthesis) return;
-  
-  // 核心修复：Android Chrome TTS 经常会挂起，必须先 resume 再 cancel 才能清除死锁队列
+
   window.speechSynthesis.resume();
   window.speechSynthesis.cancel();
-  
-  // 给系统一点时间清理队列，再执行 speak，否则在部分老安卓上依然会被丢弃
+
   setTimeout(() => {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang;
     utterance.rate = 0.9;
     utterance.pitch = 1;
-    
-    // 尝试使用更好的英语声音
+
     const voices = window.speechSynthesis.getVoices();
     const preferred = voices.find(v => v.lang.startsWith('en') && v.name.includes('Female'))
       || voices.find(v => v.lang.startsWith('en-US'))
       || voices.find(v => v.lang.startsWith('en'));
     if (preferred) utterance.voice = preferred;
-    
+
     window.speechSynthesis.speak(utterance);
   }, 50);
 }
 
-// 专门用于解决移动端（iOS/Android）在 setTimeout 中无法自动发声的权限机制
-// 必须在用户的第一次点击（onClick）事件中同步调用此方法
+/**
+ * 朗读英文句子（主入口）
+ */
+export function speak(text) {
+  if (!text) return;
+
+  const audio = getAudio();
+
+  // 停掉当前正在播放的
+  audio.pause();
+  audio.currentTime = 0;
+
+  audio.src = getTTSUrl(text);
+
+  const playPromise = audio.play();
+  if (playPromise && playPromise.catch) {
+    playPromise.catch(() => {
+      // 在线音频播放失败（离线、CORS、或首次需要手势），降级到 speechSynthesis
+      speakFallback(text);
+    });
+  }
+}
+
+/**
+ * 解锁移动端音频播放权限
+ * 必须在用户的真实 click/touch 事件中同步调用
+ */
 export function unlockAudio() {
-  if (!window.speechSynthesis) return;
-  // 修复：千万不能设置 rate = 10，安卓原生 TTS 引擎超出 [0.1, 3.0] 限制会直接静默报错并挂起整个引擎！
-  // 恢复为空字符串或空格，音量设为 0。
-  const utterance = new SpeechSynthesisUtterance('');
-  utterance.volume = 0;
-  window.speechSynthesis.speak(utterance);
+  // 解锁 <audio> 元素
+  const audio = getAudio();
+  // 播放一个极短的静音，让浏览器授权该 Audio 实例
+  audio.src = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=';
+  const p = audio.play();
+  if (p && p.catch) p.catch(() => {});
+
+  // 同时解锁 speechSynthesis（作为降级方案的备用）
+  if (window.speechSynthesis) {
+    const u = new SpeechSynthesisUtterance('');
+    u.volume = 0;
+    window.speechSynthesis.speak(u);
+  }
 }
