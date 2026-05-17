@@ -1,0 +1,5252 @@
+[
+  {
+    "id": 1,
+    "category": "There be 句型",
+    "chinese_intent": "墙上有一幅画。",
+    "anti_interference": "千万别先找“墙(Wall)”或用“有(Have)”！",
+    "core_framework": "There is...",
+    "correct_english": "There is a picture on the wall.",
+    "knowledge_point": "表示“某处存在某物”的客观状态，绝不能用Have，直接用 There is/are 框架起手。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "There is",
+      "a picture",
+      "on the wall"
+    ],
+    "scene_icon": "frame"
+  },
+  {
+    "id": 2,
+    "category": "There be 句型",
+    "chinese_intent": "车里有三个人。",
+    "anti_interference": "千万别先找“车(Car)”！",
+    "core_framework": "There are...",
+    "correct_english": "There are three people in the car.",
+    "knowledge_point": "复数存在用 There are 起手，把地点（车里）扔到句子最后。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "There are",
+      "three people",
+      "in the car"
+    ],
+    "scene_icon": "car"
+  },
+  {
+    "id": 3,
+    "category": "There be 句型",
+    "chinese_intent": "明天会有一场雨。",
+    "anti_interference": "千万别拿“明天(Tomorrow)”做主语！",
+    "core_framework": "There will be...",
+    "correct_english": "There will be rain tomorrow.",
+    "knowledge_point": "将时间状语放到句末，核心骨架依然是表示存在的 There be 的将来时态。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "There will be",
+      "rain",
+      "tomorrow"
+    ],
+    "scene_icon": "rain"
+  },
+  {
+    "id": 4,
+    "category": "There be 句型",
+    "chinese_intent": "这件事有问题。",
+    "anti_interference": "千万别说“This matter has...”！",
+    "core_framework": "There is a problem with...",
+    "correct_english": "There is a problem with this matter.",
+    "knowledge_point": "描述某种抽象的存在，用 There is 框架比直接主谓宾更地道。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "There is a problem",
+      "with",
+      "this matter"
+    ],
+    "scene_icon": "puzzle"
+  },
+  {
+    "id": 5,
+    "category": "There be 句型",
+    "chinese_intent": "你的牙齿上有个东西。",
+    "anti_interference": "别用“Your tooth has...”！",
+    "core_framework": "There is something on...",
+    "correct_english": "There is something on your teeth.",
+    "knowledge_point": "再次强化存在句型，中文主语“牙齿”在英文里其实是状语。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "There is something",
+      "on your teeth"
+    ],
+    "scene_icon": "tooth"
+  },
+  {
+    "id": 6,
+    "category": "万能主语 It",
+    "chinese_intent": "昨天下大雪了。",
+    "anti_interference": "千万别用“昨天(Yesterday)”或“雪(Snow)”开头！",
+    "core_framework": "It snowed...",
+    "correct_english": "It snowed heavily yesterday.",
+    "knowledge_point": "描述天气，固定用 It 打头阵，把天气现象变成动词。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "It snowed",
+      "heavily",
+      "yesterday"
+    ],
+    "scene_icon": "snow"
+  },
+  {
+    "id": 7,
+    "category": "万能主语 It",
+    "chinese_intent": "到北京需要两小时。",
+    "anti_interference": "千万别想怎么翻译“到(Arrive)”！",
+    "core_framework": "It takes...",
+    "correct_english": "It takes two hours to get to Beijing.",
+    "knowledge_point": "表达“花费时间”，立刻条件反射出 It takes + 时间 + to do 的框架。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It takes",
+      "two hours",
+      "to get to Beijing"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 8,
+    "category": "万能主语 It",
+    "chinese_intent": "外面很黑。",
+    "anti_interference": "千万别拿“外面(Outside)”当主语！",
+    "core_framework": "It is...",
+    "correct_english": "It is very dark outside.",
+    "knowledge_point": "描述环境状态，主语依然是隐形的 It，outside 只是地点状语。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "It is",
+      "very dark",
+      "outside"
+    ],
+    "scene_icon": "moon"
+  },
+  {
+    "id": 9,
+    "category": "万能主语 It",
+    "chinese_intent": "见到你很高兴。",
+    "anti_interference": "除了 I am glad，别想用“See you”开头！",
+    "core_framework": "It is nice to...",
+    "correct_english": "It is nice to see you.",
+    "knowledge_point": "It作形式主语，真正的主语(to see you)被后置了，避免头重脚轻。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It is nice",
+      "to see you"
+    ],
+    "scene_icon": "handshake"
+  },
+  {
+    "id": 10,
+    "category": "万能主语 It",
+    "chinese_intent": "今天轮到我买单了。",
+    "anti_interference": "别去翻译“轮到(turn to)”！",
+    "core_framework": "It's my turn to...",
+    "correct_english": "It's my turn to pay today.",
+    "knowledge_point": "日常高频句型，直接死记 It's one's turn to do 骨架。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's my turn",
+      "to pay",
+      "today"
+    ],
+    "scene_icon": "money"
+  },
+  {
+    "id": 11,
+    "category": "动词前置疑问句",
+    "chinese_intent": "我们为什么不去花园吃大餐呢？",
+    "anti_interference": "千万别顺着中文想“We why not...”！",
+    "core_framework": "Why don't we...",
+    "correct_english": "Why don't we have a big meal in the garden?",
+    "knowledge_point": "提建议的固定问句起手式，直接把疑问词和助动词甩在最前面。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Why don't",
+      "we",
+      "have a big meal",
+      "in the garden"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 12,
+    "category": "动词前置疑问句",
+    "chinese_intent": "你觉得这个主意怎么样？",
+    "anti_interference": "千万别用“How do you feel...”！",
+    "core_framework": "What do you think of...",
+    "correct_english": "What do you think of this idea?",
+    "knowledge_point": "询问看法的最地道框架是用 What 配 think of，而不是 How 配 feel。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "What do",
+      "you",
+      "think of",
+      "this idea"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 13,
+    "category": "动词前置疑问句",
+    "chinese_intent": "介意我开窗吗？",
+    "anti_interference": "千万别说“Mind I open window?”",
+    "core_framework": "Do you mind if I...",
+    "correct_english": "Do you mind if I open the window?",
+    "knowledge_point": "礼貌请求的超高频框架，锁定 Do you mind if I... 后面直接加完整动作。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Do",
+      "you",
+      "mind if I",
+      "open the window"
+    ],
+    "scene_icon": "window"
+  },
+  {
+    "id": 14,
+    "category": "动词前置疑问句",
+    "chinese_intent": "你去过巴黎吗？",
+    "anti_interference": "别用“Did you go...”！",
+    "core_framework": "Have you ever been to...",
+    "correct_english": "Have you ever been to Paris?",
+    "knowledge_point": "询问人生经历，必须条件反射出 Have you been to 框架，绝不纠结一般过去时。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Have",
+      "you",
+      "ever been to",
+      "Paris"
+    ],
+    "scene_icon": "plane"
+  },
+  {
+    "id": 15,
+    "category": "动词前置疑问句",
+    "chinese_intent": "你要去哪里？",
+    "anti_interference": "别说“You go where?”！",
+    "core_framework": "Where are you...",
+    "correct_english": "Where are you going?",
+    "knowledge_point": "疑问词必须放在句首打头阵，立刻接be动词或助动词。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Where are",
+      "you",
+      "going"
+    ],
+    "scene_icon": "map"
+  },
+  {
+    "id": 16,
+    "category": "小词大用 (Get/Take)",
+    "chinese_intent": "我听懂了。",
+    "anti_interference": "别用“I listen understand”！",
+    "core_framework": "I got...",
+    "correct_english": "I got it.",
+    "knowledge_point": "母语者极少在口语里用 understand，一个 got 包揽万物。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I",
+      "got",
+      "it"
+    ],
+    "scene_icon": "bulb"
+  },
+  {
+    "id": 17,
+    "category": "小词大用 (Get/Take)",
+    "chinese_intent": "生我的气了？",
+    "anti_interference": "千万别直译“Born my anger”！",
+    "core_framework": "Are you mad at...",
+    "correct_english": "Are you mad at me?",
+    "knowledge_point": "状态的描述用 be 动词结构，生谁的气固定搭配 mad at。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Are you",
+      "mad at",
+      "me"
+    ],
+    "scene_icon": "angry"
+  },
+  {
+    "id": 18,
+    "category": "小词大用 (Get/Take)",
+    "chinese_intent": "帮我个忙好吗？",
+    "anti_interference": "别说“Help me a busy”！",
+    "core_framework": "Can you do me a...",
+    "correct_english": "Can you do me a favor?",
+    "knowledge_point": "请求帮忙的母语者黄金短句，do sb a favor 是固定模块。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Can you",
+      "do me",
+      "a favor"
+    ],
+    "scene_icon": "hand"
+  },
+  {
+    "id": 19,
+    "category": "小词大用 (Get/Take)",
+    "chinese_intent": "别着急，慢慢来。",
+    "anti_interference": "别翻译成“Slowly come”！",
+    "core_framework": "Take your...",
+    "correct_english": "Take your time.",
+    "knowledge_point": "典型的中英文化差异表达，英语用“掌握你自己的时间”来表达“慢慢来”。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Take",
+      "your time"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 20,
+    "category": "小词大用 (Get/Take)",
+    "chinese_intent": "这说不通啊。",
+    "anti_interference": "别说“This speak not pass”！",
+    "core_framework": "That doesn't make...",
+    "correct_english": "That doesn't make sense.",
+    "knowledge_point": "表示逻辑合理，必须掌握 make sense 这个地道语块。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "That doesn't",
+      "make sense"
+    ],
+    "scene_icon": "puzzle"
+  },
+  {
+    "id": 21,
+    "category": "被动与物称主语",
+    "chinese_intent": "门锁坏了。",
+    "anti_interference": "别说“The lock is bad”！",
+    "core_framework": "The lock is broken.",
+    "correct_english": "The lock is broken.",
+    "knowledge_point": "物理损坏用 broken，bad 通常形容品质或变质。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "The lock",
+      "is broken"
+    ],
+    "scene_icon": "lock"
+  },
+  {
+    "id": 22,
+    "category": "被动与物称主语",
+    "chinese_intent": "我的钱包被偷了。",
+    "anti_interference": "别去找“小偷(Thief)”做主语！",
+    "core_framework": "My wallet was...",
+    "correct_english": "My wallet was stolen.",
+    "knowledge_point": "强调动作承受者时，直接把物品放句首使用被动语态。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "My wallet",
+      "was stolen"
+    ],
+    "scene_icon": "wallet"
+  },
+  {
+    "id": 23,
+    "category": "被动与物称主语",
+    "chinese_intent": "饭做好了。",
+    "anti_interference": "别说“Rice is made”！",
+    "core_framework": "Dinner is...",
+    "correct_english": "Dinner is ready.",
+    "knowledge_point": "状态的描述，直接用形容词 ready，跳过动作本身。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "Dinner",
+      "is ready"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 24,
+    "category": "被动与物称主语",
+    "chinese_intent": "这很难说。",
+    "anti_interference": "别说“This is hard to speak”！",
+    "core_framework": "It's hard to...",
+    "correct_english": "It's hard to say.",
+    "knowledge_point": "表达观点再次用到 It 形式主语结构。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It's hard",
+      "to say"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 25,
+    "category": "被动与物称主语",
+    "chinese_intent": "他被开除了。",
+    "anti_interference": "别想“Boss fired him”！",
+    "core_framework": "He got...",
+    "correct_english": "He got fired.",
+    "knowledge_point": "口语中最常用的被动结构是 get + 过去分词，而非 be + 过去分词。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "He",
+      "got fired"
+    ],
+    "scene_icon": "briefcase"
+  },
+  {
+    "id": 26,
+    "category": "地道神韵短句",
+    "chinese_intent": "随便你 / 由你决定。",
+    "anti_interference": "别说“Whatever you”！",
+    "core_framework": "It's up to...",
+    "correct_english": "It's up to you.",
+    "knowledge_point": "交出决定权时的万能框架，必须脱口而出。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's up",
+      "to you"
+    ],
+    "scene_icon": "crossroads"
+  },
+  {
+    "id": 27,
+    "category": "地道神韵短句",
+    "chinese_intent": "我也是这么想的。",
+    "anti_interference": "除了 Me too，别生硬翻译“I also think so”！",
+    "core_framework": "That's exactly what...",
+    "correct_english": "That's exactly what I was thinking.",
+    "knowledge_point": "高级赞同框架，用从句结构极大提升口语地道感。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "That's exactly",
+      "what I was thinking"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 28,
+    "category": "地道神韵短句",
+    "chinese_intent": "顺其自然吧。",
+    "anti_interference": "别去翻译“自然(Nature)”！",
+    "core_framework": "Let's play it by...",
+    "correct_english": "Let's play it by ear.",
+    "knowledge_point": "地道习语，原意是“听音演奏(不看谱)”，引申为见机行事、顺其自然。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Let's play it",
+      "by ear"
+    ],
+    "scene_icon": "music"
+  },
+  {
+    "id": 29,
+    "category": "地道神韵短句",
+    "chinese_intent": "说来话长。",
+    "anti_interference": "别说“Speak come words long”！",
+    "core_framework": "It's a long...",
+    "correct_english": "It's a long story.",
+    "knowledge_point": "固定社交语块，直接整体记忆。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It's",
+      "a long story"
+    ],
+    "scene_icon": "book"
+  },
+  {
+    "id": 30,
+    "category": "地道神韵短句",
+    "chinese_intent": "保持联系。",
+    "anti_interference": "别只知道说“Keep connection”！",
+    "core_framework": "Let's keep in...",
+    "correct_english": "Let's keep in touch.",
+    "knowledge_point": "道别的高频闭环骨架，in touch 是核心。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Let's",
+      "keep in touch"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 31,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "我对这个很感兴趣。",
+    "anti_interference": "别说 interested about！",
+    "core_framework": "I'm interested in...",
+    "correct_english": "I'm interested in this.",
+    "knowledge_point": "interested 后面永远跟 in，不是 about/for。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm interested",
+      "in",
+      "this"
+    ],
+    "scene_icon": "star"
+  },
+  {
+    "id": 32,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "他擅长数学。",
+    "anti_interference": "别说 good in math！",
+    "core_framework": "He is good at...",
+    "correct_english": "He is good at math.",
+    "knowledge_point": "擅长某事用 good at，不是 good in。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "He is",
+      "good at",
+      "math"
+    ],
+    "scene_icon": "trophy"
+  },
+  {
+    "id": 33,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "这取决于天气。",
+    "anti_interference": "别说 depends of/by！",
+    "core_framework": "It depends on...",
+    "correct_english": "It depends on the weather.",
+    "knowledge_point": "depend 永远搭配 on，没有例外。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It depends",
+      "on",
+      "the weather"
+    ],
+    "scene_icon": "cloud"
+  },
+  {
+    "id": 34,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "我同意你的看法。",
+    "anti_interference": "别说 agree to you！",
+    "core_framework": "I agree with...",
+    "correct_english": "I agree with you.",
+    "knowledge_point": "同意某人用 agree with sb，同意方案用 agree to sth。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I agree",
+      "with",
+      "you"
+    ],
+    "scene_icon": "handshake"
+  },
+  {
+    "id": 35,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "别嘲笑他。",
+    "anti_interference": "别说 laugh to him！",
+    "core_framework": "Don't laugh at...",
+    "correct_english": "Don't laugh at him.",
+    "knowledge_point": "嘲笑用 laugh at，跟某人一起笑才用 laugh with。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Don't",
+      "laugh at",
+      "him"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 36,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "她负责这个项目。",
+    "anti_interference": "别说 responsible about！",
+    "core_framework": "She is in charge of...",
+    "correct_english": "She is in charge of this project.",
+    "knowledge_point": "负责 = in charge of / responsible for，都要记住介词。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "She is",
+      "in charge of",
+      "this project"
+    ],
+    "scene_icon": "briefcase"
+  },
+  {
+    "id": 37,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "他们到了机场。",
+    "anti_interference": "别说 arrived to！",
+    "core_framework": "They arrived at...",
+    "correct_english": "They arrived at the airport.",
+    "knowledge_point": "到达小地点用 arrive at，大地方用 arrive in，永远不用 to。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "They arrived",
+      "at",
+      "the airport"
+    ],
+    "scene_icon": "plane"
+  },
+  {
+    "id": 38,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "我习惯了早起。",
+    "anti_interference": "别说 I used to get up early！那是'过去常常'！",
+    "core_framework": "I'm used to doing...",
+    "correct_english": "I'm used to getting up early.",
+    "knowledge_point": "be used to doing = 习惯做某事，used to do = 过去常常做。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'm used to",
+      "getting up",
+      "early"
+    ],
+    "scene_icon": "sunrise"
+  },
+  {
+    "id": 39,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "她嫁给了一个医生。",
+    "anti_interference": "别说 married with！",
+    "core_framework": "She married...",
+    "correct_english": "She married a doctor.",
+    "knowledge_point": "marry 是及物动词，直接加人，不需要任何介词。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "She",
+      "married",
+      "a doctor"
+    ],
+    "scene_icon": "ring"
+  },
+  {
+    "id": 40,
+    "category": "介词搭配陷阱",
+    "chinese_intent": "我在找我的钥匙。",
+    "anti_interference": "别说 find my key！find 是找到！",
+    "core_framework": "I'm looking for...",
+    "correct_english": "I'm looking for my keys.",
+    "knowledge_point": "找东西（还没找到）= look for，找到了 = find。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm looking",
+      "for",
+      "my keys"
+    ],
+    "scene_icon": "key"
+  },
+  {
+    "id": 41,
+    "category": "时态思维差异",
+    "chinese_intent": "我认识他十年了。",
+    "anti_interference": "别说 I know him ten years！",
+    "core_framework": "I've known him for...",
+    "correct_english": "I've known him for ten years.",
+    "knowledge_point": "从过去持续到现在的状态必须用现在完成时 + for/since。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I've known him",
+      "for",
+      "ten years"
+    ],
+    "scene_icon": "calendar"
+  },
+  {
+    "id": 42,
+    "category": "时态思维差异",
+    "chinese_intent": "你吃过午饭了吗？",
+    "anti_interference": "别说 Did you eat lunch！",
+    "core_framework": "Have you had...",
+    "correct_english": "Have you had lunch yet?",
+    "knowledge_point": "关心现在状态（吃没吃）用现在完成时，不是过去时。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Have you",
+      "had",
+      "lunch yet"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 43,
+    "category": "时态思维差异",
+    "chinese_intent": "我以为你走了。",
+    "anti_interference": "别说 I think you left！",
+    "core_framework": "I thought you had...",
+    "correct_english": "I thought you had left.",
+    "knowledge_point": "过去的过去用过去完成时 had + done。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I thought",
+      "you had",
+      "left"
+    ],
+    "scene_icon": "door"
+  },
+  {
+    "id": 44,
+    "category": "时态思维差异",
+    "chinese_intent": "她一直在哭。",
+    "anti_interference": "别说 She is crying all the time！",
+    "core_framework": "She has been...",
+    "correct_english": "She has been crying.",
+    "knowledge_point": "一直持续到现在的动作用现在完成进行时 has been doing。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "She has been",
+      "crying"
+    ],
+    "scene_icon": "tear"
+  },
+  {
+    "id": 45,
+    "category": "时态思维差异",
+    "chinese_intent": "我正要出门，他就来了。",
+    "anti_interference": "别说 I am going to leave, he comes！",
+    "core_framework": "I was about to... when...",
+    "correct_english": "I was about to leave when he came.",
+    "knowledge_point": "was about to + when 表示正要做某事时突然发生另一件事。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I was about to",
+      "leave",
+      "when he came"
+    ],
+    "scene_icon": "door"
+  },
+  {
+    "id": 46,
+    "category": "时态思维差异",
+    "chinese_intent": "我小时候经常去那里。",
+    "anti_interference": "别说 I often go there when I was child！",
+    "core_framework": "I used to...",
+    "correct_english": "I used to go there when I was a kid.",
+    "knowledge_point": "过去的习惯用 used to do，现在已经不做了。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I used to",
+      "go there",
+      "when I was a kid"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 47,
+    "category": "时态思维差异",
+    "chinese_intent": "他已经离开了。",
+    "anti_interference": "别说 He already left（美式可以但正式不推荐）！",
+    "core_framework": "He has already...",
+    "correct_english": "He has already left.",
+    "knowledge_point": "already 用在现在完成时中表示已经完成的动作。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "He has",
+      "already",
+      "left"
+    ],
+    "scene_icon": "wave"
+  },
+  {
+    "id": 48,
+    "category": "时态思维差异",
+    "chinese_intent": "到你来的时候我就做完了。",
+    "anti_interference": "别说 When you come I will finish！",
+    "core_framework": "I will have finished by...",
+    "correct_english": "I will have finished by the time you come.",
+    "knowledge_point": "将来完成时 will have done 表示将来某个时间点之前完成。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I will have finished",
+      "by the time",
+      "you come"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 49,
+    "category": "时态思维差异",
+    "chinese_intent": "我等了你两个小时了。",
+    "anti_interference": "别说 I wait you two hours！",
+    "core_framework": "I've been waiting for...",
+    "correct_english": "I've been waiting for you for two hours.",
+    "knowledge_point": "现在完成进行时强调动作的持续性和时间长度。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I've been waiting",
+      "for you",
+      "for two hours"
+    ],
+    "scene_icon": "hourglass"
+  },
+  {
+    "id": 50,
+    "category": "时态思维差异",
+    "chinese_intent": "我来这个城市三年了。",
+    "anti_interference": "别说 I come this city three years！",
+    "core_framework": "I've been in... for...",
+    "correct_english": "I've been in this city for three years.",
+    "knowledge_point": "表示在某地待了多久用 have been in + 地点 + for + 时间。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I've been in",
+      "this city",
+      "for three years"
+    ],
+    "scene_icon": "city"
+  },
+  {
+    "id": 51,
+    "category": "动词短语",
+    "chinese_intent": "我搞清楚了。",
+    "anti_interference": "别说 I clear it！",
+    "core_framework": "I figured it out.",
+    "correct_english": "I figured it out.",
+    "knowledge_point": "figure out = 弄清楚/搞明白，美式口语超高频。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I",
+      "figured",
+      "it out"
+    ],
+    "scene_icon": "bulb"
+  },
+  {
+    "id": 52,
+    "category": "动词短语",
+    "chinese_intent": "别放弃。",
+    "anti_interference": "别说 Don't abandon！太书面了！",
+    "core_framework": "Don't give up.",
+    "correct_english": "Don't give up.",
+    "knowledge_point": "give up 是口语中放弃的唯一正确说法。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Don't",
+      "give up"
+    ],
+    "scene_icon": "fist"
+  },
+  {
+    "id": 53,
+    "category": "动词短语",
+    "chinese_intent": "我们推迟了会议。",
+    "anti_interference": "别说 We delayed the meeting！",
+    "core_framework": "We put off...",
+    "correct_english": "We put off the meeting.",
+    "knowledge_point": "put off = 推迟，比 delay 更口语。也可说 postpone（正式）。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "We",
+      "put off",
+      "the meeting"
+    ],
+    "scene_icon": "calendar"
+  },
+  {
+    "id": 54,
+    "category": "动词短语",
+    "chinese_intent": "我偶然发现了这家店。",
+    "anti_interference": "别说 I accidentally found！",
+    "core_framework": "I came across...",
+    "correct_english": "I came across this shop.",
+    "knowledge_point": "come across = 偶然发现/碰到，比 accidentally find 地道一万倍。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I",
+      "came across",
+      "this shop"
+    ],
+    "scene_icon": "magnifier"
+  },
+  {
+    "id": 55,
+    "category": "动词短语",
+    "chinese_intent": "请小声点。",
+    "anti_interference": "别说 Please small voice！",
+    "core_framework": "Keep it down.",
+    "correct_english": "Keep it down.",
+    "knowledge_point": "keep it down 是口语中让人小声的最地道说法。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Keep",
+      "it",
+      "down"
+    ],
+    "scene_icon": "volume"
+  },
+  {
+    "id": 56,
+    "category": "动词短语",
+    "chinese_intent": "原来他是对的。",
+    "anti_interference": "别说 Originally he was right！",
+    "core_framework": "It turned out...",
+    "correct_english": "It turned out he was right.",
+    "knowledge_point": "turn out = 结果证明/原来是，不是 originally。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "It turned out",
+      "he was",
+      "right"
+    ],
+    "scene_icon": "bulb"
+  },
+  {
+    "id": 57,
+    "category": "动词短语",
+    "chinese_intent": "我受不了了。",
+    "anti_interference": "别说 I can't bear it！太书面！",
+    "core_framework": "I can't put up with...",
+    "correct_english": "I can't put up with it anymore.",
+    "knowledge_point": "put up with = 忍受，口语最常用的表达。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I can't",
+      "put up with",
+      "it anymore"
+    ],
+    "scene_icon": "angry"
+  },
+  {
+    "id": 58,
+    "category": "动词短语",
+    "chinese_intent": "飞机几点起飞？",
+    "anti_interference": "别说 What time does the plane fly up！",
+    "core_framework": "What time does... take off?",
+    "correct_english": "What time does the plane take off?",
+    "knowledge_point": "起飞 = take off，不是 fly up。降落 = land。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "What time",
+      "does the plane",
+      "take off"
+    ],
+    "scene_icon": "plane"
+  },
+  {
+    "id": 59,
+    "category": "动词短语",
+    "chinese_intent": "你能帮我照看一下行李吗？",
+    "anti_interference": "别说 Can you help see my luggage！",
+    "core_framework": "Can you look after...",
+    "correct_english": "Can you look after my luggage?",
+    "knowledge_point": "look after = 照看/照顾，比 take care of 更口语。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Can you",
+      "look after",
+      "my luggage"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 60,
+    "category": "动词短语",
+    "chinese_intent": "我需要补上落下的课。",
+    "anti_interference": "别说 I need to repair the class！",
+    "core_framework": "I need to catch up on...",
+    "correct_english": "I need to catch up on my classes.",
+    "knowledge_point": "catch up on = 补上/赶上落下的东西。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I need to",
+      "catch up on",
+      "my classes"
+    ],
+    "scene_icon": "book"
+  },
+  {
+    "id": 61,
+    "category": "情态动词与委婉",
+    "chinese_intent": "你最好现在就走。",
+    "anti_interference": "别说 You best go now！",
+    "core_framework": "You'd better...",
+    "correct_english": "You'd better leave now.",
+    "knowledge_point": "had better = 最好（含警告意味），缩写 'd better。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "You'd better",
+      "leave",
+      "now"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 62,
+    "category": "情态动词与委婉",
+    "chinese_intent": "我宁愿待在家里。",
+    "anti_interference": "别说 I rather stay！",
+    "core_framework": "I'd rather...",
+    "correct_english": "I'd rather stay home.",
+    "knowledge_point": "would rather + 动词原形 = 宁愿做某事。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'd rather",
+      "stay",
+      "home"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 63,
+    "category": "情态动词与委婉",
+    "chinese_intent": "你本该早点说的。",
+    "anti_interference": "别说 You should early say！",
+    "core_framework": "You should have...",
+    "correct_english": "You should have told me earlier.",
+    "knowledge_point": "should have done = 本该做而没做（表遗憾/责备）。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "You should have",
+      "told me",
+      "earlier"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 64,
+    "category": "情态动词与委婉",
+    "chinese_intent": "我还不如走路呢。",
+    "anti_interference": "别说 I better walk！",
+    "core_framework": "I might as well...",
+    "correct_english": "I might as well walk.",
+    "knowledge_point": "might as well = 还不如/不妨，表示没有更好选择。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I might",
+      "as well",
+      "walk"
+    ],
+    "scene_icon": "walk"
+  },
+  {
+    "id": 65,
+    "category": "情态动词与委婉",
+    "chinese_intent": "你能不能别这样？",
+    "anti_interference": "别说 Can you don't do this！",
+    "core_framework": "Could you please stop...",
+    "correct_english": "Could you please stop doing that?",
+    "knowledge_point": "委婉请求用 Could you please + 动词原形。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Could you",
+      "please stop",
+      "doing that"
+    ],
+    "scene_icon": "stop"
+  },
+  {
+    "id": 66,
+    "category": "情态动词与委婉",
+    "chinese_intent": "我本可以帮你的。",
+    "anti_interference": "别说 I can helped you！",
+    "core_framework": "I could have...",
+    "correct_english": "I could have helped you.",
+    "knowledge_point": "could have done = 本可以做但没做（虚拟语气）。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I could have",
+      "helped",
+      "you"
+    ],
+    "scene_icon": "hand"
+  },
+  {
+    "id": 67,
+    "category": "情态动词与委婉",
+    "chinese_intent": "不一定非得这样做。",
+    "anti_interference": "别说 You must not do this way！那是'禁止'！",
+    "core_framework": "You don't have to...",
+    "correct_english": "You don't have to do it this way.",
+    "knowledge_point": "don't have to = 不必/没必要。must not = 禁止，完全不同！",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "You don't have to",
+      "do it",
+      "this way"
+    ],
+    "scene_icon": "crossroads"
+  },
+  {
+    "id": 68,
+    "category": "情态动词与委婉",
+    "chinese_intent": "你介意把音乐关小一点吗？",
+    "anti_interference": "别说 Do you mind to turn down！",
+    "core_framework": "Would you mind doing...",
+    "correct_english": "Would you mind turning the music down?",
+    "knowledge_point": "Would you mind + doing（动名词），不是 to do。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Would you mind",
+      "turning",
+      "the music down"
+    ],
+    "scene_icon": "music"
+  },
+  {
+    "id": 69,
+    "category": "否定转移",
+    "chinese_intent": "我觉得他不会来。",
+    "anti_interference": "别说 I think he won't come！",
+    "core_framework": "I don't think...",
+    "correct_english": "I don't think he will come.",
+    "knowledge_point": "英语习惯把否定提前到主句——否定转移，更委婉自然。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I don't think",
+      "he will",
+      "come"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 70,
+    "category": "否定转移",
+    "chinese_intent": "我认为这不公平。",
+    "anti_interference": "别说 I think it's not fair！",
+    "core_framework": "I don't think it's...",
+    "correct_english": "I don't think it's fair.",
+    "knowledge_point": "否定转移：不说'我认为它不公平'，要说'我不认为它公平'。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I don't think",
+      "it's",
+      "fair"
+    ],
+    "scene_icon": "scale"
+  },
+  {
+    "id": 71,
+    "category": "否定转移",
+    "chinese_intent": "看起来好像不太对。",
+    "anti_interference": "别说 It seems not right！",
+    "core_framework": "It doesn't seem...",
+    "correct_english": "It doesn't seem right.",
+    "knowledge_point": "seem 的否定也要前移：doesn't seem，不是 seems not。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It doesn't",
+      "seem",
+      "right"
+    ],
+    "scene_icon": "puzzle"
+  },
+  {
+    "id": 72,
+    "category": "否定转移",
+    "chinese_intent": "好像没有人在乎。",
+    "anti_interference": "别说 Everybody seems not care！",
+    "core_framework": "Nobody seems to...",
+    "correct_english": "Nobody seems to care.",
+    "knowledge_point": "用 nobody/nothing 等否定代词开头，动词用肯定形式。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Nobody",
+      "seems to",
+      "care"
+    ],
+    "scene_icon": "empty"
+  },
+  {
+    "id": 73,
+    "category": "否定转移",
+    "chinese_intent": "我不认为那是个好主意。",
+    "anti_interference": "别说 I think that is not a good idea！",
+    "core_framework": "I don't think that's...",
+    "correct_english": "I don't think that's a good idea.",
+    "knowledge_point": "这是否定转移的最经典句型，必须死记。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I don't think",
+      "that's",
+      "a good idea"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 74,
+    "category": "否定转移",
+    "chinese_intent": "我估计今天完不成。",
+    "anti_interference": "别说 I think I can't finish today！",
+    "core_framework": "I don't think I can...",
+    "correct_english": "I don't think I can finish it today.",
+    "knowledge_point": "再次强化否定转移：把 can't 变成 don't think... can。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I don't think",
+      "I can finish",
+      "it today"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 75,
+    "category": "物称主语进阶",
+    "chinese_intent": "什么风把你吹来了？",
+    "anti_interference": "别说 What wind blows you here！",
+    "core_framework": "What brings you here?",
+    "correct_english": "What brings you here?",
+    "knowledge_point": "英语用 what 做主语 + brings，物称主语思维。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "What",
+      "brings",
+      "you here"
+    ],
+    "scene_icon": "wind"
+  },
+  {
+    "id": 76,
+    "category": "物称主语进阶",
+    "chinese_intent": "这张照片让我想起了童年。",
+    "anti_interference": "别说 I see this photo and think of childhood！",
+    "core_framework": "This photo reminds me of...",
+    "correct_english": "This photo reminds me of my childhood.",
+    "knowledge_point": "remind sb of sth = 使某人想起某事，照片做主语。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "This photo",
+      "reminds me of",
+      "my childhood"
+    ],
+    "scene_icon": "photo"
+  },
+  {
+    "id": 77,
+    "category": "物称主语进阶",
+    "chinese_intent": "那条路会带你到车站。",
+    "anti_interference": "别说 You walk that road can arrive station！",
+    "core_framework": "That road will take you to...",
+    "correct_english": "That road will take you to the station.",
+    "knowledge_point": "road 做主语 + take you to，英语习惯让事物做主语。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "That road",
+      "will take you",
+      "to the station"
+    ],
+    "scene_icon": "road"
+  },
+  {
+    "id": 78,
+    "category": "物称主语进阶",
+    "chinese_intent": "咖啡让我睡不着。",
+    "anti_interference": "别说 I drink coffee cannot sleep！",
+    "core_framework": "Coffee keeps me...",
+    "correct_english": "Coffee keeps me awake.",
+    "knowledge_point": "keep sb + adj = 使某人保持某种状态，咖啡做主语。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "Coffee",
+      "keeps me",
+      "awake"
+    ],
+    "scene_icon": "coffee"
+  },
+  {
+    "id": 79,
+    "category": "物称主语进阶",
+    "chinese_intent": "一个想法突然出现在我脑海里。",
+    "anti_interference": "别说 I suddenly think an idea！",
+    "core_framework": "An idea occurred to me.",
+    "correct_english": "An idea occurred to me.",
+    "knowledge_point": "occur to sb = 想法浮现在某人脑海，idea 做主语。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "An idea",
+      "occurred",
+      "to me"
+    ],
+    "scene_icon": "bulb"
+  },
+  {
+    "id": 80,
+    "category": "物称主语进阶",
+    "chinese_intent": "这首歌让我很感动。",
+    "anti_interference": "别说 I listen this song very moved！",
+    "core_framework": "This song really moves me.",
+    "correct_english": "This song really moves me.",
+    "knowledge_point": "move sb = 感动某人，歌曲做主语更地道。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "This song",
+      "really moves",
+      "me"
+    ],
+    "scene_icon": "music"
+  },
+  {
+    "id": 81,
+    "category": "物称主语进阶",
+    "chinese_intent": "钱花完了。",
+    "anti_interference": "别说 Money is finished！",
+    "core_framework": "The money ran out.",
+    "correct_english": "The money ran out.",
+    "knowledge_point": "run out = 用完/耗尽，钱做主语 + ran out。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "The money",
+      "ran",
+      "out"
+    ],
+    "scene_icon": "wallet"
+  },
+  {
+    "id": 82,
+    "category": "物称主语进阶",
+    "chinese_intent": "这个理由站不住脚。",
+    "anti_interference": "别说 This reason can't stand！",
+    "core_framework": "This reason doesn't hold water.",
+    "correct_english": "This reason doesn't hold water.",
+    "knowledge_point": "hold water = 站得住脚/说得通，地道习语。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "This reason",
+      "doesn't",
+      "hold water"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 83,
+    "category": "固定搭配地雷",
+    "chinese_intent": "我去接个电话。",
+    "anti_interference": "别说 I go receive the phone！",
+    "core_framework": "Let me get the phone.",
+    "correct_english": "Let me get the phone.",
+    "knowledge_point": "接电话 = get/answer the phone，不是 receive。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Let me",
+      "get",
+      "the phone"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 84,
+    "category": "固定搭配地雷",
+    "chinese_intent": "你看上去气色不好。",
+    "anti_interference": "别说 Your face color is not good！",
+    "core_framework": "You don't look well.",
+    "correct_english": "You don't look well.",
+    "knowledge_point": "look well = 气色好，不用翻译'脸色'。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "You don't",
+      "look",
+      "well"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 85,
+    "category": "固定搭配地雷",
+    "chinese_intent": "祝你旅途愉快。",
+    "anti_interference": "别说 Wish you happy travel！",
+    "core_framework": "Have a nice trip!",
+    "correct_english": "Have a nice trip!",
+    "knowledge_point": "Have a nice + 名词 是祝福万能句型。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Have",
+      "a nice",
+      "trip"
+    ],
+    "scene_icon": "plane"
+  },
+  {
+    "id": 86,
+    "category": "固定搭配地雷",
+    "chinese_intent": "我改主意了。",
+    "anti_interference": "别说 I changed my idea！",
+    "core_framework": "I changed my mind.",
+    "correct_english": "I changed my mind.",
+    "knowledge_point": "改主意 = change one's mind，不是 idea。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I changed",
+      "my",
+      "mind"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 87,
+    "category": "固定搭配地雷",
+    "chinese_intent": "你说到点子上了。",
+    "anti_interference": "别说 You speak to the point！",
+    "core_framework": "You've got a point.",
+    "correct_english": "You've got a point.",
+    "knowledge_point": "have/got a point = 有道理/说到点上。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "You've got",
+      "a",
+      "point"
+    ],
+    "scene_icon": "target"
+  },
+  {
+    "id": 88,
+    "category": "固定搭配地雷",
+    "chinese_intent": "别往心里去。",
+    "anti_interference": "别说 Don't put it in heart！",
+    "core_framework": "Don't take it personally.",
+    "correct_english": "Don't take it personally.",
+    "knowledge_point": "take it personally = 往心里去/太当真。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Don't take it",
+      "personally"
+    ],
+    "scene_icon": "heart"
+  },
+  {
+    "id": 89,
+    "category": "固定搭配地雷",
+    "chinese_intent": "他很有幽默感。",
+    "anti_interference": "别说 He is very humor！",
+    "core_framework": "He has a good sense of...",
+    "correct_english": "He has a good sense of humor.",
+    "knowledge_point": "幽默感 = sense of humor，不能直接说 is humor。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "He has",
+      "a good sense of",
+      "humor"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 90,
+    "category": "固定搭配地雷",
+    "chinese_intent": "我堵车了。",
+    "anti_interference": "别说 I was blocked by cars！",
+    "core_framework": "I got stuck in...",
+    "correct_english": "I got stuck in traffic.",
+    "knowledge_point": "堵车 = get stuck in traffic，固定搭配。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I got stuck",
+      "in",
+      "traffic"
+    ],
+    "scene_icon": "car"
+  },
+  {
+    "id": 91,
+    "category": "固定搭配地雷",
+    "chinese_intent": "我记性不好。",
+    "anti_interference": "别说 My memory is not good！",
+    "core_framework": "I have a bad memory.",
+    "correct_english": "I have a bad memory.",
+    "knowledge_point": "记性好/差 = have a good/bad memory。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I have",
+      "a bad",
+      "memory"
+    ],
+    "scene_icon": "brain"
+  },
+  {
+    "id": 92,
+    "category": "固定搭配地雷",
+    "chinese_intent": "我请你吃饭。",
+    "anti_interference": "别说 I invite you eat！",
+    "core_framework": "It's my treat.",
+    "correct_english": "Let me treat you to dinner.",
+    "knowledge_point": "请客 = treat sb to sth 或 It's my treat。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Let me",
+      "treat you",
+      "to dinner"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 93,
+    "category": "比较与程度",
+    "chinese_intent": "我没你高。",
+    "anti_interference": "别说 I'm not taller than you！逻辑反了！",
+    "core_framework": "I'm not as tall as...",
+    "correct_english": "I'm not as tall as you.",
+    "knowledge_point": "不如某人用 not as...as，不是 not + 比较级。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'm not",
+      "as tall as",
+      "you"
+    ],
+    "scene_icon": "ruler"
+  },
+  {
+    "id": 94,
+    "category": "比较与程度",
+    "chinese_intent": "这个比我想的要难。",
+    "anti_interference": "别说 This is more difficult than I think！时态错了！",
+    "core_framework": "This is harder than I thought.",
+    "correct_english": "This is harder than I thought.",
+    "knowledge_point": "比我想的 = than I thought（过去时），因为'想'在先。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "This is harder",
+      "than",
+      "I thought"
+    ],
+    "scene_icon": "mountain"
+  },
+  {
+    "id": 95,
+    "category": "比较与程度",
+    "chinese_intent": "他是我见过最搞笑的人。",
+    "anti_interference": "别说 He is most funny person I see！",
+    "core_framework": "He's the funniest... I've ever...",
+    "correct_english": "He's the funniest person I've ever met.",
+    "knowledge_point": "最高级 + I've ever + 过去分词，表达'我所经历过的'。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "He's the funniest",
+      "person",
+      "I've ever met"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 96,
+    "category": "比较与程度",
+    "chinese_intent": "越来越好了。",
+    "anti_interference": "别说 More and more good！",
+    "core_framework": "It's getting better and better.",
+    "correct_english": "It's getting better and better.",
+    "knowledge_point": "比较级 + and + 比较级 = 越来越...",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's getting",
+      "better",
+      "and better"
+    ],
+    "scene_icon": "arrow_up"
+  },
+  {
+    "id": 97,
+    "category": "比较与程度",
+    "chinese_intent": "没那么简单。",
+    "anti_interference": "别说 Not so much simple！",
+    "core_framework": "It's not that simple.",
+    "correct_english": "It's not that simple.",
+    "knowledge_point": "not that + 形容词 = 没那么...，口语超高频。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's not",
+      "that",
+      "simple"
+    ],
+    "scene_icon": "puzzle"
+  },
+  {
+    "id": 98,
+    "category": "比较与程度",
+    "chinese_intent": "你越努力越幸运。",
+    "anti_interference": "别说 You more hard work more lucky！",
+    "core_framework": "The harder..., the luckier...",
+    "correct_english": "The harder you work, the luckier you get.",
+    "knowledge_point": "the + 比较级..., the + 比较级... = 越...越...",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "The harder",
+      "you work",
+      "the luckier you get"
+    ],
+    "scene_icon": "star"
+  },
+  {
+    "id": 99,
+    "category": "比较与程度",
+    "chinese_intent": "他的英语远不如你。",
+    "anti_interference": "别说 His English is far not good than yours！",
+    "core_framework": "His English is nowhere near as good as...",
+    "correct_english": "His English is nowhere near as good as yours.",
+    "knowledge_point": "nowhere near as...as = 远不如...，强调差距。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "His English is",
+      "nowhere near",
+      "as good as yours"
+    ],
+    "scene_icon": "gap"
+  },
+  {
+    "id": 100,
+    "category": "比较与程度",
+    "chinese_intent": "我更喜欢待在家里。",
+    "anti_interference": "别说 I more like stay home！",
+    "core_framework": "I'd prefer to...",
+    "correct_english": "I'd prefer to stay home.",
+    "knowledge_point": "would prefer to do = 更喜欢做某事，比 more like 地道。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'd prefer",
+      "to stay",
+      "home"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 101,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "虽然很累，我还是坚持跑完了。",
+    "anti_interference": "别说 Although very tired, but I...！but 多余！",
+    "core_framework": "Tired as I was, I...",
+    "correct_english": "Tired as I was, I kept running.",
+    "knowledge_point": "adj + as + 主语 + be = 虽然...，高级让步结构。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Tired as I was",
+      "I kept",
+      "running"
+    ],
+    "scene_icon": "run"
+  },
+  {
+    "id": 102,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "不管怎样，谢谢你。",
+    "anti_interference": "别说 No matter how, thank you！",
+    "core_framework": "Anyway, thank you.",
+    "correct_english": "Anyway, thank you.",
+    "knowledge_point": "anyway = 不管怎样，口语万能连接词。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Anyway",
+      "thank",
+      "you"
+    ],
+    "scene_icon": "heart"
+  },
+  {
+    "id": 103,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "就算你说的对，我也不同意。",
+    "anti_interference": "别说 Even you are right, I also disagree！",
+    "core_framework": "Even if you're right...",
+    "correct_english": "Even if you're right, I still disagree.",
+    "knowledge_point": "even if = 即使/就算，后面接完整从句。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Even if",
+      "you're right",
+      "I still disagree"
+    ],
+    "scene_icon": "scale"
+  },
+  {
+    "id": 104,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "毕竟，他只是个孩子。",
+    "anti_interference": "别说 After all said, he is just child！",
+    "core_framework": "After all, he's just...",
+    "correct_english": "After all, he's just a kid.",
+    "knowledge_point": "after all = 毕竟，放句首做让步状语。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "After all",
+      "he's just",
+      "a kid"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 105,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "除此之外，一切都很好。",
+    "anti_interference": "别说 Except this, all is good！",
+    "core_framework": "Other than that...",
+    "correct_english": "Other than that, everything is fine.",
+    "knowledge_point": "other than that = 除此之外，比 except this 更口语。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Other than that",
+      "everything",
+      "is fine"
+    ],
+    "scene_icon": "check"
+  },
+  {
+    "id": 106,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "说实话，我不太确定。",
+    "anti_interference": "别说 Speak true words！",
+    "core_framework": "To be honest...",
+    "correct_english": "To be honest, I'm not so sure.",
+    "knowledge_point": "to be honest = 说实话，放句首做插入语。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "To be honest",
+      "I'm not",
+      "so sure"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 107,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "换句话说，我们得重新开始。",
+    "anti_interference": "别说 Change word say！",
+    "core_framework": "In other words...",
+    "correct_english": "In other words, we have to start over.",
+    "knowledge_point": "in other words = 换句话说，正式口语均可。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "In other words",
+      "we have to",
+      "start over"
+    ],
+    "scene_icon": "refresh"
+  },
+  {
+    "id": 108,
+    "category": "让步与逻辑连接",
+    "chinese_intent": "不管你信不信，这是真的。",
+    "anti_interference": "别说 No matter you believe or not！",
+    "core_framework": "Believe it or not...",
+    "correct_english": "Believe it or not, it's true.",
+    "knowledge_point": "believe it or not = 信不信由你，固定口语开场。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Believe it or not",
+      "it's",
+      "true"
+    ],
+    "scene_icon": "surprise"
+  },
+  {
+    "id": 109,
+    "category": "口语高频万能句",
+    "chinese_intent": "我无所谓。",
+    "anti_interference": "别说 I whatever！",
+    "core_framework": "I don't mind.",
+    "correct_english": "I don't mind.",
+    "knowledge_point": "I don't mind = 我无所谓/我不介意。whatever 语气很差。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I don't",
+      "mind"
+    ],
+    "scene_icon": "shrug"
+  },
+  {
+    "id": 110,
+    "category": "口语高频万能句",
+    "chinese_intent": "你在开玩笑吧。",
+    "anti_interference": "别说 You are open joke！",
+    "core_framework": "You must be kidding.",
+    "correct_english": "You must be kidding.",
+    "knowledge_point": "You must be kidding/joking = 你开玩笑吧，must be 表推测。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "You must be",
+      "kidding"
+    ],
+    "scene_icon": "surprise"
+  },
+  {
+    "id": 111,
+    "category": "口语高频万能句",
+    "chinese_intent": "我差点忘了。",
+    "anti_interference": "别说 I almost forget！时态不对！",
+    "core_framework": "I almost forgot.",
+    "correct_english": "I almost forgot.",
+    "knowledge_point": "差点做了某事用过去时 almost + 过去式。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I almost",
+      "forgot"
+    ],
+    "scene_icon": "brain"
+  },
+  {
+    "id": 112,
+    "category": "口语高频万能句",
+    "chinese_intent": "这不关你的事。",
+    "anti_interference": "别说 This not concern your thing！",
+    "core_framework": "It's none of your business.",
+    "correct_english": "It's none of your business.",
+    "knowledge_point": "none of your business = 不关你事，固定表达。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "It's none of",
+      "your",
+      "business"
+    ],
+    "scene_icon": "stop"
+  },
+  {
+    "id": 113,
+    "category": "口语高频万能句",
+    "chinese_intent": "我忍不住笑了。",
+    "anti_interference": "别说 I can't endure to laugh！",
+    "core_framework": "I couldn't help...",
+    "correct_english": "I couldn't help laughing.",
+    "knowledge_point": "can't help doing = 忍不住做某事。注意用动名词。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I couldn't help",
+      "laughing"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 114,
+    "category": "口语高频万能句",
+    "chinese_intent": "你太客气了。",
+    "anti_interference": "别说 You are too polite！有讽刺意味！",
+    "core_framework": "That's very kind of you.",
+    "correct_english": "That's very kind of you.",
+    "knowledge_point": "That's very kind of you = 你真好/太客气了，真诚表达。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "That's",
+      "very kind",
+      "of you"
+    ],
+    "scene_icon": "heart"
+  },
+  {
+    "id": 115,
+    "category": "口语高频万能句",
+    "chinese_intent": "我拿不定主意。",
+    "anti_interference": "别说 I can't decide my idea！",
+    "core_framework": "I can't make up my mind.",
+    "correct_english": "I can't make up my mind.",
+    "knowledge_point": "make up one's mind = 做决定/拿定主意。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I can't",
+      "make up",
+      "my mind"
+    ],
+    "scene_icon": "crossroads"
+  },
+  {
+    "id": 116,
+    "category": "口语高频万能句",
+    "chinese_intent": "没什么大不了的。",
+    "anti_interference": "别说 Not what big deal！",
+    "core_framework": "It's no big deal.",
+    "correct_english": "It's no big deal.",
+    "knowledge_point": "no big deal = 没什么大不了，超级口语。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's",
+      "no big",
+      "deal"
+    ],
+    "scene_icon": "shrug"
+  },
+  {
+    "id": 117,
+    "category": "口语高频万能句",
+    "chinese_intent": "我迫不及待了。",
+    "anti_interference": "别说 I very hurry wait！",
+    "core_framework": "I can't wait!",
+    "correct_english": "I can't wait!",
+    "knowledge_point": "can't wait = 迫不及待/等不及了。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I can't",
+      "wait"
+    ],
+    "scene_icon": "fire"
+  },
+  {
+    "id": 118,
+    "category": "口语高频万能句",
+    "chinese_intent": "算了吧。",
+    "anti_interference": "别说 Calculate it！",
+    "core_framework": "Forget it.",
+    "correct_english": "Forget it.",
+    "knowledge_point": "forget it = 算了/别提了，口语极高频。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Forget",
+      "it"
+    ],
+    "scene_icon": "wave"
+  },
+  {
+    "id": 119,
+    "category": "There be 扩展",
+    "chinese_intent": "冰箱里什么都没有。",
+    "anti_interference": "别说 Fridge inside have nothing！",
+    "core_framework": "There's nothing in...",
+    "correct_english": "There's nothing in the fridge.",
+    "knowledge_point": "There is nothing in = 里面什么都没有。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "There's nothing",
+      "in",
+      "the fridge"
+    ],
+    "scene_icon": "fridge"
+  },
+  {
+    "id": 120,
+    "category": "There be 扩展",
+    "chinese_intent": "附近有药店吗？",
+    "anti_interference": "别说 Nearby have pharmacy？",
+    "core_framework": "Is there a... nearby?",
+    "correct_english": "Is there a pharmacy nearby?",
+    "knowledge_point": "There be 的疑问形式：Is there / Are there...?",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Is there",
+      "a pharmacy",
+      "nearby"
+    ],
+    "scene_icon": "map"
+  },
+  {
+    "id": 121,
+    "category": "There be 扩展",
+    "chinese_intent": "一定是哪里出了问题。",
+    "anti_interference": "别说 Must be where has problem！",
+    "core_framework": "There must be something wrong.",
+    "correct_english": "There must be something wrong.",
+    "knowledge_point": "There must be = 一定有/一定存在（推测）。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "There must be",
+      "something",
+      "wrong"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 122,
+    "category": "There be 扩展",
+    "chinese_intent": "没有必要担心。",
+    "anti_interference": "别说 Not necessary worry！",
+    "core_framework": "There's no need to...",
+    "correct_english": "There's no need to worry.",
+    "knowledge_point": "There's no need to do = 没有必要做某事。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "There's no need",
+      "to",
+      "worry"
+    ],
+    "scene_icon": "peace"
+  },
+  {
+    "id": 123,
+    "category": "There be 扩展",
+    "chinese_intent": "还剩多少时间？",
+    "anti_interference": "别说 Still remain how much time！",
+    "core_framework": "How much time is there left?",
+    "correct_english": "How much time is there left?",
+    "knowledge_point": "there be 结合疑问词：How much/many + is/are there?",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "How much time",
+      "is there",
+      "left"
+    ],
+    "scene_icon": "hourglass"
+  },
+  {
+    "id": 124,
+    "category": "万能主语 It 扩展",
+    "chinese_intent": "已经很晚了。",
+    "anti_interference": "别说 Already very late！缺主语！",
+    "core_framework": "It's getting late.",
+    "correct_english": "It's getting late.",
+    "knowledge_point": "It's getting + adj = 变得越来越...，时间/天气常用。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's",
+      "getting",
+      "late"
+    ],
+    "scene_icon": "moon"
+  },
+  {
+    "id": 125,
+    "category": "万能主语 It 扩展",
+    "chinese_intent": "值得一试。",
+    "anti_interference": "别说 Worthy try！",
+    "core_framework": "It's worth a try.",
+    "correct_english": "It's worth a try.",
+    "knowledge_point": "It's worth + 名词/doing = 值得...",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's worth",
+      "a",
+      "try"
+    ],
+    "scene_icon": "target"
+  },
+  {
+    "id": 126,
+    "category": "万能主语 It 扩展",
+    "chinese_intent": "碰巧我认识他。",
+    "anti_interference": "别说 Coincidence I know him！",
+    "core_framework": "It happens that...",
+    "correct_english": "It happens that I know him.",
+    "knowledge_point": "It happens that = 碰巧/恰好。也可说 I happen to know him。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It happens that",
+      "I know",
+      "him"
+    ],
+    "scene_icon": "link"
+  },
+  {
+    "id": 127,
+    "category": "万能主语 It 扩展",
+    "chinese_intent": "据说他很有钱。",
+    "anti_interference": "别说 Hear say he very rich！",
+    "core_framework": "It is said that...",
+    "correct_english": "It is said that he is very rich.",
+    "knowledge_point": "It is said/reported/believed that... = 据说/据报道/据信...",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It is said",
+      "that he is",
+      "very rich"
+    ],
+    "scene_icon": "megaphone"
+  },
+  {
+    "id": 128,
+    "category": "万能主语 It 扩展",
+    "chinese_intent": "学好英语很重要。",
+    "anti_interference": "别说 Learn good English very important！",
+    "core_framework": "It's important to...",
+    "correct_english": "It's important to learn English well.",
+    "knowledge_point": "It's + adj + to do = 做某事是...的（It 形式主语）。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It's important",
+      "to learn",
+      "English well"
+    ],
+    "scene_icon": "book"
+  },
+  {
+    "id": 129,
+    "category": "万能主语 It 扩展",
+    "chinese_intent": "离车站走路要十分钟。",
+    "anti_interference": "别说 Walk to station need ten minutes！",
+    "core_framework": "It's a ten-minute walk to...",
+    "correct_english": "It's a ten-minute walk to the station.",
+    "knowledge_point": "It's a + 时间-名词 + to... 是描述距离/耗时的地道说法。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It's a",
+      "ten-minute walk",
+      "to the station"
+    ],
+    "scene_icon": "walk"
+  },
+  {
+    "id": 130,
+    "category": "万能主语 It 扩展",
+    "chinese_intent": "那就这样定了。",
+    "anti_interference": "别说 Then like this decide！",
+    "core_framework": "Then it's settled.",
+    "correct_english": "Then it's settled.",
+    "knowledge_point": "It's settled = 就这样定了，干脆利落。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Then",
+      "it's",
+      "settled"
+    ],
+    "scene_icon": "check"
+  },
+  {
+    "id": 131,
+    "category": "餐厅与点餐",
+    "chinese_intent": "买单！",
+    "anti_interference": "别说 Pay the bill！太生硬了！",
+    "core_framework": "Check, please.",
+    "correct_english": "Check, please.",
+    "knowledge_point": "在北美买单最常用 Check, please 或 Can I get the check?",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Check",
+      "please"
+    ],
+    "scene_icon": "receipt"
+  },
+  {
+    "id": 132,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我们分开付。",
+    "anti_interference": "别说 We pay separate！",
+    "core_framework": "We'd like to split...",
+    "correct_english": "We'd like to split the bill.",
+    "knowledge_point": "AA制/分开付 = split the bill/check。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "We'd like to",
+      "split",
+      "the bill"
+    ],
+    "scene_icon": "receipt"
+  },
+  {
+    "id": 133,
+    "category": "餐厅与点餐",
+    "chinese_intent": "这份牛排全熟。",
+    "anti_interference": "别说 All cooked！",
+    "core_framework": "I'd like my...",
+    "correct_english": "I'd like my steak well done.",
+    "knowledge_point": "牛排熟度：rare, medium rare, medium, medium well, well done。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'd like",
+      "my steak",
+      "well done"
+    ],
+    "scene_icon": "plate_fork"
+  },
+  {
+    "id": 134,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我在节食。",
+    "anti_interference": "别说 I am losing weight！",
+    "core_framework": "I'm on a diet.",
+    "correct_english": "I'm on a diet.",
+    "knowledge_point": "节食 = be on a diet，这不一定是为了减肥，也可能是健康控制。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm",
+      "on",
+      "a diet"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 135,
+    "category": "餐厅与点餐",
+    "chinese_intent": "这个可以打包吗？",
+    "anti_interference": "别说 Can I pack this？",
+    "core_framework": "Can I get a box for...",
+    "correct_english": "Can I get a box for this?",
+    "knowledge_point": "打包带走用 get a to-go box，而不是 pack（打包行李）。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Can I get",
+      "a box",
+      "for this"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 136,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我要在这儿吃。",
+    "anti_interference": "别说 Eat here！",
+    "core_framework": "For here or to go?",
+    "correct_english": "For here, please.",
+    "knowledge_point": "堂食 = for here，外带 = to go。绝对不要说 eat here。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "For here",
+      "please"
+    ],
+    "scene_icon": "plate_fork"
+  },
+  {
+    "id": 137,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我请客。",
+    "anti_interference": "别说 I invite you！",
+    "core_framework": "It's on me.",
+    "correct_english": "It's on me.",
+    "knowledge_point": "口语中表示请客最常用 It's on me 或 My treat。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's",
+      "on",
+      "me"
+    ],
+    "scene_icon": "credit_card"
+  },
+  {
+    "id": 138,
+    "category": "餐厅与点餐",
+    "chinese_intent": "再来一杯咖啡。",
+    "anti_interference": "别说 One more coffee！",
+    "core_framework": "Could I have a refill...",
+    "correct_english": "Could I have a refill, please?",
+    "knowledge_point": "续杯 = refill，北美很多餐厅饮料可以免费 refill。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Could I have",
+      "a refill",
+      "please"
+    ],
+    "scene_icon": "coffee_cup"
+  },
+  {
+    "id": 139,
+    "category": "餐厅与点餐",
+    "chinese_intent": "这道菜太辣了。",
+    "anti_interference": "别说 Too hot！会有歧义。",
+    "core_framework": "This is too spicy.",
+    "correct_english": "This dish is too spicy.",
+    "knowledge_point": "表示辣味用 spicy，hot 有时指温度高。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "This dish",
+      "is",
+      "too spicy"
+    ],
+    "scene_icon": "fire"
+  },
+  {
+    "id": 140,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我点和她一样的。",
+    "anti_interference": "别说 I want same with her！",
+    "core_framework": "I'll have what she's having.",
+    "correct_english": "I'll have what she's having.",
+    "knowledge_point": "经典电影台词句型，用 what 引导宾语从句最自然。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I'll have",
+      "what she's",
+      "having"
+    ],
+    "scene_icon": "menu"
+  },
+  {
+    "id": 141,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我要一杯白开水。",
+    "anti_interference": "别说 White water！",
+    "core_framework": "Just tap...",
+    "correct_english": "Just tap water, please.",
+    "knowledge_point": "餐厅免费水叫 tap water（自来水），不是 white water。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Just",
+      "tap water",
+      "please"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 142,
+    "category": "餐厅与点餐",
+    "chinese_intent": "你们有素食菜单吗？",
+    "anti_interference": "别说 Do you have vegetable menu？",
+    "core_framework": "Do you have vegetarian options?",
+    "correct_english": "Do you have vegetarian options?",
+    "knowledge_point": "素食选项 = vegetarian/vegan options。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Do you have",
+      "vegetarian",
+      "options"
+    ],
+    "scene_icon": "menu"
+  },
+  {
+    "id": 143,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我还没准备好点菜。",
+    "anti_interference": "别说 I'm not ready order！",
+    "core_framework": "I need a few more minutes.",
+    "correct_english": "I need a few more minutes, please.",
+    "knowledge_point": "委婉表达还没看好菜单，直接说需要几分钟即可。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I need",
+      "a few more minutes",
+      "please"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 144,
+    "category": "餐厅与点餐",
+    "chinese_intent": "这个没点过。",
+    "anti_interference": "别说 I didn't order this！听起来像找茬。",
+    "core_framework": "I don't think we ordered this.",
+    "correct_english": "I don't think we ordered this.",
+    "knowledge_point": "否定前置，委婉表达“好像上错菜了”。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I don't think",
+      "we ordered",
+      "this"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 145,
+    "category": "餐厅与点餐",
+    "chinese_intent": "不要加冰。",
+    "anti_interference": "别说 No ice！太像命令了。",
+    "core_framework": "I'll have it with...",
+    "correct_english": "I'll have it with no ice, please.",
+    "knowledge_point": "点单时补充要求：with no ice / easy on the ice（少冰）。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'll have it",
+      "with",
+      "no ice"
+    ],
+    "scene_icon": "snow"
+  },
+  {
+    "id": 146,
+    "category": "餐厅与点餐",
+    "chinese_intent": "汤太咸了。",
+    "anti_interference": "别说 Too salty！",
+    "core_framework": "The soup is a...",
+    "correct_english": "The soup is a bit too salty.",
+    "knowledge_point": "加 a bit 显得更委婉礼貌。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "The soup is",
+      "a bit",
+      "too salty"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 147,
+    "category": "餐厅与点餐",
+    "chinese_intent": "我吃饱了。",
+    "anti_interference": "别说 I'm full（有时显得粗鲁）或 I eat finish！",
+    "core_framework": "I'm stuffed.",
+    "correct_english": "I'm stuffed.",
+    "knowledge_point": "吃撑了/饱了 = stuffed，口语极其常见。也可以说 I've had enough。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I'm",
+      "stuffed"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 148,
+    "category": "餐厅与点餐",
+    "chinese_intent": "服务员，点单！",
+    "anti_interference": "别大喊 Waiter！很不礼貌。",
+    "core_framework": "Excuse me!",
+    "correct_english": "Excuse me! We're ready to order.",
+    "knowledge_point": "叫服务员永远用 Excuse me 加眼神接触，千万别喊 Waiter。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Excuse me",
+      "We're ready",
+      "to order"
+    ],
+    "scene_icon": "hand"
+  },
+  {
+    "id": 149,
+    "category": "餐厅与点餐",
+    "chinese_intent": "这顿算我的。",
+    "anti_interference": "别说 This meal is mine！",
+    "core_framework": "It's my treat.",
+    "correct_english": "It's my treat this time.",
+    "knowledge_point": "treat 既是动词也是名词，表示款待/请客。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It's",
+      "my treat",
+      "this time"
+    ],
+    "scene_icon": "credit_card"
+  },
+  {
+    "id": 150,
+    "category": "餐厅与点餐",
+    "chinese_intent": "你们几点关门？",
+    "anti_interference": "别说 What time do you close door！",
+    "core_framework": "What time do you close?",
+    "correct_english": "What time do you close?",
+    "knowledge_point": "关门打烊直接用 close，不要加 door。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "What time",
+      "do you",
+      "close"
+    ],
+    "scene_icon": "door"
+  },
+  {
+    "id": 151,
+    "category": "购物与退换货",
+    "chinese_intent": "我随便看看。",
+    "anti_interference": "别说 I look randomly！",
+    "core_framework": "I'm just browsing.",
+    "correct_english": "I'm just browsing, thanks.",
+    "knowledge_point": "逛街时表示“随便看看”最地道的说法是 I'm just browsing 或 just looking。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'm just",
+      "browsing",
+      "thanks"
+    ],
+    "scene_icon": "magnifier"
+  },
+  {
+    "id": 152,
+    "category": "购物与退换货",
+    "chinese_intent": "可以便宜点吗？",
+    "anti_interference": "别说 Can be cheaper？",
+    "core_framework": "Can you give me a discount?",
+    "correct_english": "Can you give me a discount on this?",
+    "knowledge_point": "讲价时直接问 discount (折扣) 更自然。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Can you",
+      "give me",
+      "a discount"
+    ],
+    "scene_icon": "money"
+  },
+  {
+    "id": 153,
+    "category": "购物与退换货",
+    "chinese_intent": "太贵了！",
+    "anti_interference": "别说 It's too expensive！太直接。",
+    "core_framework": "That's a little out of my budget.",
+    "correct_english": "That's a little out of my budget.",
+    "knowledge_point": "委婉嫌贵：超出我的预算 (out of my budget)。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "That's a little",
+      "out of",
+      "my budget"
+    ],
+    "scene_icon": "wallet"
+  },
+  {
+    "id": 154,
+    "category": "购物与退换货",
+    "chinese_intent": "我想退货。",
+    "anti_interference": "别说 I want to return this back！",
+    "core_framework": "I'd like to return this.",
+    "correct_english": "I'd like to return this, please.",
+    "knowledge_point": "退货用 return 就行了，不用加 back（语意重复）。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I'd like to",
+      "return",
+      "this"
+    ],
+    "scene_icon": "receipt"
+  },
+  {
+    "id": 155,
+    "category": "购物与退换货",
+    "chinese_intent": "这个有货吗？",
+    "anti_interference": "别说 Do you have this？太宽泛。",
+    "core_framework": "Do you have this in stock?",
+    "correct_english": "Do you have this in stock?",
+    "knowledge_point": "表示“有库存/有货”用 in stock，没货用 out of stock。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Do you have",
+      "this",
+      "in stock"
+    ],
+    "scene_icon": "box"
+  },
+  {
+    "id": 156,
+    "category": "购物与退换货",
+    "chinese_intent": "我穿多大码？",
+    "anti_interference": "别说 What size am I？",
+    "core_framework": "What size do you...",
+    "correct_english": "What size do you recommend for me?",
+    "knowledge_point": "让别人推荐尺码用 recommend 更好。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "What size",
+      "do you",
+      "recommend"
+    ],
+    "scene_icon": "ruler"
+  },
+  {
+    "id": 157,
+    "category": "购物与退换货",
+    "chinese_intent": "可以试穿吗？",
+    "anti_interference": "别说 Can I try to wear this？",
+    "core_framework": "Can I try this on?",
+    "correct_english": "Can I try this on?",
+    "knowledge_point": "试穿固定搭配 try on。试衣间是 fitting room。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Can I",
+      "try this",
+      "on"
+    ],
+    "scene_icon": "mirror"
+  },
+  {
+    "id": 158,
+    "category": "购物与退换货",
+    "chinese_intent": "这件不合身。",
+    "anti_interference": "别说 This doesn't fit my body！",
+    "core_framework": "This doesn't fit...",
+    "correct_english": "This doesn't fit me very well.",
+    "knowledge_point": "衣服尺寸不合用 fit。如果风格/颜色不搭用 suit。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "This doesn't",
+      "fit me",
+      "very well"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 159,
+    "category": "购物与退换货",
+    "chinese_intent": "你们收信用卡吗？",
+    "anti_interference": "别说 Do you accept credit card？稍微生硬。",
+    "core_framework": "Do you take credit cards?",
+    "correct_english": "Do you take credit cards here?",
+    "knowledge_point": "口语中“收不收卡”最常用 take。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Do you",
+      "take",
+      "credit cards"
+    ],
+    "scene_icon": "credit_card"
+  },
+  {
+    "id": 160,
+    "category": "购物与退换货",
+    "chinese_intent": "买单！/ 结账。",
+    "anti_interference": "别说 Pay money！",
+    "core_framework": "I'll take it.",
+    "correct_english": "I'll take this one.",
+    "knowledge_point": "决定买下某物，不要说 I want to buy this，直接霸气地说 I'll take it。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'll",
+      "take",
+      "this one"
+    ],
+    "scene_icon": "shopping_cart"
+  },
+  {
+    "id": 161,
+    "category": "购物与退换货",
+    "chinese_intent": "有没有别的颜色？",
+    "anti_interference": "别说 Have other colors？",
+    "core_framework": "Does this come in...",
+    "correct_english": "Does this come in other colors?",
+    "knowledge_point": "商品“有没有XX款式/颜色”用地道表达 come in。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Does this",
+      "come in",
+      "other colors"
+    ],
+    "scene_icon": "bulb"
+  },
+  {
+    "id": 162,
+    "category": "购物与退换货",
+    "chinese_intent": "给我开张发票/收据。",
+    "anti_interference": "别说 Give me a bill！",
+    "core_framework": "Can I get a receipt?",
+    "correct_english": "Can I get a receipt, please?",
+    "knowledge_point": "购物的收据小票叫 receipt。Invoice 则是对公发票。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Can I get",
+      "a receipt",
+      "please"
+    ],
+    "scene_icon": "receipt"
+  },
+  {
+    "id": 163,
+    "category": "购物与退换货",
+    "chinese_intent": "这个打几折？",
+    "anti_interference": "别说 How much discount？",
+    "core_framework": "How much is this off?",
+    "correct_english": "How much is this off?",
+    "knowledge_point": "打折用 off，比如 20% off 是打八折。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "How much",
+      "is this",
+      "off"
+    ],
+    "scene_icon": "scale"
+  },
+  {
+    "id": 164,
+    "category": "购物与退换货",
+    "chinese_intent": "这件坏了。",
+    "anti_interference": "别说 This is broken！",
+    "core_framework": "This is defective.",
+    "correct_english": "This item seems to be defective.",
+    "knowledge_point": "商品有瑕疵/残次，用 defective 显得更专业。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "This item",
+      "seems to be",
+      "defective"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 165,
+    "category": "购物与退换货",
+    "chinese_intent": "我想换大一号。",
+    "anti_interference": "别说 I want to change a big one！",
+    "core_framework": "I'd like to exchange...",
+    "correct_english": "I'd like to exchange this for a larger size.",
+    "knowledge_point": "换货用 exchange A for B。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'd like to",
+      "exchange this",
+      "for a larger size"
+    ],
+    "scene_icon": "refresh"
+  },
+  {
+    "id": 166,
+    "category": "购物与退换货",
+    "chinese_intent": "哪里付钱？",
+    "anti_interference": "别说 Where to pay money？",
+    "core_framework": "Where is the checkout?",
+    "correct_english": "Where is the checkout, please?",
+    "knowledge_point": "结账柜台叫 checkout 或 register。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Where is",
+      "the checkout",
+      "please"
+    ],
+    "scene_icon": "map"
+  },
+  {
+    "id": 167,
+    "category": "购物与退换货",
+    "chinese_intent": "能给我个袋子吗？",
+    "anti_interference": "别说 Give me a bag！",
+    "core_framework": "Could I have a bag?",
+    "correct_english": "Could I have a bag for this?",
+    "knowledge_point": "日常索要物品用 Could I have... 最礼貌得体。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Could I have",
+      "a bag",
+      "for this"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 168,
+    "category": "购物与退换货",
+    "chinese_intent": "买一送一。",
+    "anti_interference": "别说 Buy one get one free 是对的，但还有更简短的！",
+    "core_framework": "It's a buy one...",
+    "correct_english": "It's a buy one, get one free deal.",
+    "knowledge_point": "招牌上经常缩写为 BOGO。口语中常说 BOGO deal。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's a",
+      "buy one, get one free",
+      "deal"
+    ],
+    "scene_icon": "trophy"
+  },
+  {
+    "id": 169,
+    "category": "购物与退换货",
+    "chinese_intent": "包邮吗？",
+    "anti_interference": "别说 Free post？",
+    "core_framework": "Does this include...",
+    "correct_english": "Does this include free shipping?",
+    "knowledge_point": "网购“包邮” = free shipping。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Does this",
+      "include",
+      "free shipping"
+    ],
+    "scene_icon": "plane"
+  },
+  {
+    "id": 170,
+    "category": "购物与退换货",
+    "chinese_intent": "我觉得不值这个价。",
+    "anti_interference": "别说 Not worth this money！",
+    "core_framework": "I don't think it's...",
+    "correct_english": "I don't think it's worth the price.",
+    "knowledge_point": "worth the price (值这个价)。Rip-off 是俚语指“坑人/宰客”。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I don't think",
+      "it's worth",
+      "the price"
+    ],
+    "scene_icon": "money"
+  },
+  {
+    "id": 171,
+    "category": "酒店与住宿",
+    "chinese_intent": "我要退房。",
+    "anti_interference": "别说 I want to leave room！",
+    "core_framework": "I'd like to...",
+    "correct_english": "I'd like to check out, please.",
+    "knowledge_point": "办理退房标准说法是 check out，入住是 check in。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'd like",
+      "to",
+      "check out"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 172,
+    "category": "酒店与住宿",
+    "chinese_intent": "麻烦叫个早。",
+    "anti_interference": "别说 Call me morning！",
+    "core_framework": "Can I get a...",
+    "correct_english": "Can I get a wake-up call at 7 AM?",
+    "knowledge_point": "酒店的“叫早服务”叫 wake-up call。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Can I get",
+      "a wake-up call",
+      "at 7 AM"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 173,
+    "category": "酒店与住宿",
+    "chinese_intent": "空调坏了。",
+    "anti_interference": "别说 Air condition is broken！",
+    "core_framework": "The AC in my...",
+    "correct_english": "The AC in my room isn't working.",
+    "knowledge_point": "电器坏了/不制冷，更自然地说 not working。空调简称 AC。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "The AC",
+      "isn't",
+      "working"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 174,
+    "category": "酒店与住宿",
+    "chinese_intent": "我想换个房间。",
+    "anti_interference": "别说 I want to change a room！",
+    "core_framework": "Is it possible to...",
+    "correct_english": "Is it possible to move to another room?",
+    "knowledge_point": "换房间通常用 move，表示搬到另一个房间。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Is it possible",
+      "to move",
+      "to another room"
+    ],
+    "scene_icon": "refresh"
+  },
+  {
+    "id": 175,
+    "category": "酒店与住宿",
+    "chinese_intent": "能给我多拿条毛巾吗？",
+    "anti_interference": "别说 Give me one more towel！",
+    "core_framework": "Could we get some extra...",
+    "correct_english": "Could we get some extra towels, please?",
+    "knowledge_point": "酒店要多拿东西，用 extra 加上物品名称。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Could we get",
+      "some extra",
+      "towels"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 176,
+    "category": "酒店与住宿",
+    "chinese_intent": "我的房卡刷不开门。",
+    "anti_interference": "别说 My card can't open door！",
+    "core_framework": "My keycard...",
+    "correct_english": "My keycard isn't working.",
+    "knowledge_point": "房卡叫 keycard，刷不开也是 not working。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "My keycard",
+      "isn't",
+      "working"
+    ],
+    "scene_icon": "key"
+  },
+  {
+    "id": 177,
+    "category": "酒店与住宿",
+    "chinese_intent": "早餐几点结束？",
+    "anti_interference": "别说 When finish breakfast？",
+    "core_framework": "Until what time is breakfast served?",
+    "correct_english": "Until what time is breakfast served?",
+    "knowledge_point": "地道问法：早餐供应到几点。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Until what time",
+      "is breakfast",
+      "served"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 178,
+    "category": "酒店与住宿",
+    "chinese_intent": "帮我把行李送到房间。",
+    "anti_interference": "别说 Send my bags to room！",
+    "core_framework": "Could you have my...",
+    "correct_english": "Could you have my luggage brought up to my room?",
+    "knowledge_point": "使役动词 have sth done 的高阶用法，非常礼貌。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Could you have",
+      "my luggage",
+      "brought up"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 179,
+    "category": "酒店与住宿",
+    "chinese_intent": "我被锁在门外了。",
+    "anti_interference": "别说 I lock me out！",
+    "core_framework": "I'm locked out...",
+    "correct_english": "I'm locked out of my room.",
+    "knowledge_point": "“锁在外面”用被动 be locked out of...",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I'm",
+      "locked out of",
+      "my room"
+    ],
+    "scene_icon": "lock"
+  },
+  {
+    "id": 180,
+    "category": "酒店与住宿",
+    "chinese_intent": "这里有免费 Wi-Fi 吗？",
+    "anti_interference": "别说 Do you have free internet？",
+    "core_framework": "Is the Wi-Fi complimentary?",
+    "correct_english": "Is the Wi-Fi complimentary?",
+    "knowledge_point": "高档酒店/餐厅常用 complimentary 代替 free 表示“免费赠送的”。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Is the Wi-Fi",
+      "complimentary"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 181,
+    "category": "酒店与住宿",
+    "chinese_intent": "可以延迟退房吗？",
+    "anti_interference": "别说 Can I leave late？",
+    "core_framework": "Can I get...",
+    "correct_english": "Can I get a late check-out?",
+    "knowledge_point": "延迟退房是酒店标准术语 late check-out。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Can I get",
+      "a late",
+      "check-out"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 182,
+    "category": "酒店与住宿",
+    "chinese_intent": "我想存一下行李。",
+    "anti_interference": "别说 I want to store luggage！",
+    "core_framework": "Could you keep my...",
+    "correct_english": "Could you keep my bags for a few hours?",
+    "knowledge_point": "寄存行李最简单自然的说法是 keep my bags。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Could you",
+      "keep my bags",
+      "for a few hours"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 183,
+    "category": "酒店与住宿",
+    "chinese_intent": "隔壁太吵了。",
+    "anti_interference": "别说 Next door is noisy！",
+    "core_framework": "The people next door...",
+    "correct_english": "The people next door are making a lot of noise.",
+    "knowledge_point": "表达别人制造噪音：making a lot of noise。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "The people",
+      "next door",
+      "are making a lot of noise"
+    ],
+    "scene_icon": "volume"
+  },
+  {
+    "id": 184,
+    "category": "酒店与住宿",
+    "chinese_intent": "房间没打扫。",
+    "anti_interference": "别说 Room is not clean！",
+    "core_framework": "My room hasn't been...",
+    "correct_english": "My room hasn't been made up yet.",
+    "knowledge_point": "酒店整理房间专有名词：make up the room。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "My room",
+      "hasn't been",
+      "made up yet"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 185,
+    "category": "酒店与住宿",
+    "chinese_intent": "床太软了。",
+    "anti_interference": "别说 Bed is soft！",
+    "core_framework": "The mattress is a...",
+    "correct_english": "The mattress is a bit too soft for me.",
+    "knowledge_point": "指具体的床垫 mattress。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "The mattress is",
+      "a bit too soft",
+      "for me"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 186,
+    "category": "酒店与住宿",
+    "chinese_intent": "我要叫客房服务。",
+    "anti_interference": "别说 Call room service！",
+    "core_framework": "I'd like to...",
+    "correct_english": "I'd like to order room service.",
+    "knowledge_point": "点酒店的客房餐饮叫 order room service。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'd like to",
+      "order",
+      "room service"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 187,
+    "category": "酒店与住宿",
+    "chinese_intent": "退房时间是几点？",
+    "anti_interference": "别说 What time leave？",
+    "core_framework": "What's the...",
+    "correct_english": "What's the checkout time?",
+    "knowledge_point": "名词化提问，简洁地道。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "What's the",
+      "checkout",
+      "time"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 188,
+    "category": "酒店与住宿",
+    "chinese_intent": "押金怎么退？",
+    "anti_interference": "别说 How to return deposit？",
+    "core_framework": "How will the...",
+    "correct_english": "How will the deposit be refunded?",
+    "knowledge_point": "退款的专业词是 refund，被动语态显得专业。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "How will",
+      "the deposit",
+      "be refunded"
+    ],
+    "scene_icon": "money"
+  },
+  {
+    "id": 189,
+    "category": "酒店与住宿",
+    "chinese_intent": "我的护照忘在保险箱了。",
+    "anti_interference": "别说 I forget passport in safe！",
+    "core_framework": "I left my passport...",
+    "correct_english": "I left my passport in the room safe.",
+    "knowledge_point": "“把东西忘在某处”绝不能用 forget，必须用 leave。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I left",
+      "my passport",
+      "in the room safe"
+    ],
+    "scene_icon": "lock"
+  },
+  {
+    "id": 190,
+    "category": "酒店与住宿",
+    "chinese_intent": "你们有机场大巴吗？",
+    "anti_interference": "别说 Do you have airport bus？",
+    "core_framework": "Do you offer an...",
+    "correct_english": "Do you offer an airport shuttle service?",
+    "knowledge_point": "酒店/机场间穿梭的巴士叫 shuttle。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Do you offer",
+      "an airport",
+      "shuttle service"
+    ],
+    "scene_icon": "car"
+  },
+  {
+    "id": 191,
+    "category": "交通与出行",
+    "chinese_intent": "我在堵车。",
+    "anti_interference": "别说 I am blocked by cars！",
+    "core_framework": "I'm stuck...",
+    "correct_english": "I'm stuck in traffic.",
+    "knowledge_point": "堵车最地道表达是被困在交通中 stuck in traffic。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I'm",
+      "stuck",
+      "in traffic"
+    ],
+    "scene_icon": "road"
+  },
+  {
+    "id": 192,
+    "category": "交通与出行",
+    "chinese_intent": "靠边停车。",
+    "anti_interference": "别说 Stop at side！",
+    "core_framework": "Could you pull...",
+    "correct_english": "Could you pull over here?",
+    "knowledge_point": "汽车靠边停/停在路边，固定短语 pull over。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Could you",
+      "pull over",
+      "here"
+    ],
+    "scene_icon": "car"
+  },
+  {
+    "id": 193,
+    "category": "交通与出行",
+    "chinese_intent": "你去哪？",
+    "anti_interference": "打车时司机问你去哪，别只听懂 Where are you going！",
+    "core_framework": "Where to?",
+    "correct_english": "Where to?",
+    "knowledge_point": "出租车司机极高频极简问句：Where to?",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Where",
+      "to"
+    ],
+    "scene_icon": "map"
+  },
+  {
+    "id": 194,
+    "category": "交通与出行",
+    "chinese_intent": "你走错路了。",
+    "anti_interference": "别说 You walk wrong way！",
+    "core_framework": "I think we're going...",
+    "correct_english": "I think we're going the wrong way.",
+    "knowledge_point": "乘车/走路方向反了，用 go the wrong way。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I think",
+      "we're going",
+      "the wrong way"
+    ],
+    "scene_icon": "crossroads"
+  },
+  {
+    "id": 195,
+    "category": "交通与出行",
+    "chinese_intent": "我要下车（公交/地铁）。",
+    "anti_interference": "别说 I want to get down！",
+    "core_framework": "I need to get...",
+    "correct_english": "I need to get off at the next stop.",
+    "knowledge_point": "大型交通工具（公交、地铁、飞机）下车用 get off；小轿车用 get out of。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I need to",
+      "get off",
+      "at the next stop"
+    ],
+    "scene_icon": "door"
+  },
+  {
+    "id": 196,
+    "category": "交通与出行",
+    "chinese_intent": "打表吗？",
+    "anti_interference": "别说 Do you open meter？",
+    "core_framework": "Could you use...",
+    "correct_english": "Could you use the meter, please?",
+    "knowledge_point": "出租车“打表”计费，用 use the meter。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Could you",
+      "use the meter",
+      "please"
+    ],
+    "scene_icon": "money"
+  },
+  {
+    "id": 197,
+    "category": "交通与出行",
+    "chinese_intent": "不用找零了。",
+    "anti_interference": "别说 Don't give me change！",
+    "core_framework": "Keep the change.",
+    "correct_english": "Keep the change.",
+    "knowledge_point": "给小费时的经典短语：不用找了。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Keep",
+      "the change"
+    ],
+    "scene_icon": "wallet"
+  },
+  {
+    "id": 198,
+    "category": "交通与出行",
+    "chinese_intent": "错过了末班车。",
+    "anti_interference": "别说 Lose the last bus！",
+    "core_framework": "I missed the...",
+    "correct_english": "I missed the last train.",
+    "knowledge_point": "错过交通工具用 miss，绝不能用 lose。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I",
+      "missed",
+      "the last train"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 199,
+    "category": "交通与出行",
+    "chinese_intent": "我的车没油了。",
+    "anti_interference": "别说 My car has no oil！",
+    "core_framework": "I'm running out...",
+    "correct_english": "I'm running out of gas.",
+    "knowledge_point": "汽车用的汽油是 gas，oil 通常指机油；耗尽用 run out of。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I'm",
+      "running out of",
+      "gas"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 200,
+    "category": "交通与出行",
+    "chinese_intent": "车爆胎了。",
+    "anti_interference": "别说 Tire is broken！",
+    "core_framework": "I have a...",
+    "correct_english": "I have a flat tire.",
+    "knowledge_point": "爆胎/瘪胎固定说法 a flat tire。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I have",
+      "a flat",
+      "tire"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 201,
+    "category": "交通与出行",
+    "chinese_intent": "还有多远？",
+    "anti_interference": "别说 How far from here？不自然。",
+    "core_framework": "How much longer?",
+    "correct_english": "How much longer until we get there?",
+    "knowledge_point": "询问还要多久/多远，常问还需要多长时间 how much longer。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "How much longer",
+      "until",
+      "we get there"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 202,
+    "category": "交通与出行",
+    "chinese_intent": "红灯停，绿灯行。",
+    "anti_interference": "别说 Red light stop！",
+    "core_framework": "Stop at red.",
+    "correct_english": "Stop at the red light.",
+    "knowledge_point": "遵守交通信号的介词搭配 stop at / go on。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Stop",
+      "at",
+      "the red light"
+    ],
+    "scene_icon": "stop"
+  },
+  {
+    "id": 203,
+    "category": "交通与出行",
+    "chinese_intent": "我的航班延误了。",
+    "anti_interference": "别说 My flight is late！",
+    "core_framework": "My flight has...",
+    "correct_english": "My flight has been delayed.",
+    "knowledge_point": "航班延误用被动语态 be delayed。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "My flight",
+      "has been",
+      "delayed"
+    ],
+    "scene_icon": "plane"
+  },
+  {
+    "id": 204,
+    "category": "交通与出行",
+    "chinese_intent": "行李超重了。",
+    "anti_interference": "别说 Bag is too heavy！",
+    "core_framework": "Your luggage...",
+    "correct_english": "Your luggage is overweight.",
+    "knowledge_point": "航空术语行李超重 overweight。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Your luggage",
+      "is",
+      "overweight"
+    ],
+    "scene_icon": "scale"
+  },
+  {
+    "id": 205,
+    "category": "交通与出行",
+    "chinese_intent": "系好安全带。",
+    "anti_interference": "别说 Tie your seatbelt！",
+    "core_framework": "Please fasten...",
+    "correct_english": "Please fasten your seatbelt.",
+    "knowledge_point": "系安全带的标准动词是 fasten / buckle up。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Please",
+      "fasten",
+      "your seatbelt"
+    ],
+    "scene_icon": "lock"
+  },
+  {
+    "id": 206,
+    "category": "交通与出行",
+    "chinese_intent": "这路限速多少？",
+    "anti_interference": "别说 What is the speed limit？其实可以，但有更简单的口语。",
+    "core_framework": "What's the speed limit?",
+    "correct_english": "What's the speed limit here?",
+    "knowledge_point": "限速 = speed limit。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "What's",
+      "the speed limit",
+      "here"
+    ],
+    "scene_icon": "road"
+  },
+  {
+    "id": 207,
+    "category": "交通与出行",
+    "chinese_intent": "抄近道。",
+    "anti_interference": "别说 Walk short way！",
+    "core_framework": "Let's take...",
+    "correct_english": "Let's take a shortcut.",
+    "knowledge_point": "捷径/近路 = shortcut。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Let's take",
+      "a",
+      "shortcut"
+    ],
+    "scene_icon": "crossroads"
+  },
+  {
+    "id": 208,
+    "category": "交通与出行",
+    "chinese_intent": "我迷路了。",
+    "anti_interference": "别说 I lose my way！",
+    "core_framework": "I think...",
+    "correct_english": "I think I'm lost.",
+    "knowledge_point": "形容词 lost，最简单的 I'm lost。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I think",
+      "I'm",
+      "lost"
+    ],
+    "scene_icon": "map"
+  },
+  {
+    "id": 209,
+    "category": "交通与出行",
+    "chinese_intent": "就停在那个角落。",
+    "anti_interference": "别说 Stop at the corner！不精确。",
+    "core_framework": "You can drop me...",
+    "correct_english": "You can drop me off at the corner.",
+    "knowledge_point": "让人把你放下来/送达，用 drop off。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "You can",
+      "drop me off",
+      "at the corner"
+    ],
+    "scene_icon": "car"
+  },
+  {
+    "id": 210,
+    "category": "交通与出行",
+    "chinese_intent": "我赶时间。",
+    "anti_interference": "别说 I am catching time！",
+    "core_framework": "I'm in a bit...",
+    "correct_english": "I'm in a bit of a rush.",
+    "knowledge_point": "表示赶时间/着急，用 be in a rush 或 be in a hurry。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm in",
+      "a bit of a",
+      "rush"
+    ],
+    "scene_icon": "run"
+  },
+  {
+    "id": 211,
+    "category": "职场与会议",
+    "chinese_intent": "我休假了。",
+    "anti_interference": "别说 I am resting！",
+    "core_framework": "I'm currently...",
+    "correct_english": "I'm currently on leave.",
+    "knowledge_point": "正式的带薪休假用 on leave，如果是普通度假用 on vacation。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm",
+      "currently",
+      "on leave"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 212,
+    "category": "职场与会议",
+    "chinese_intent": "我今天请病假。",
+    "anti_interference": "别说 I ask for a sick leave！",
+    "core_framework": "I need to call...",
+    "correct_english": "I need to call in sick today.",
+    "knowledge_point": "打电话去公司请病假，地道短语 call in sick。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I need to",
+      "call in sick",
+      "today"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 213,
+    "category": "职场与会议",
+    "chinese_intent": "随时告诉我。",
+    "anti_interference": "别说 Keep me tell！",
+    "core_framework": "Please keep...",
+    "correct_english": "Please keep me posted.",
+    "knowledge_point": "工作中极高频短语：随时向我汇报进度 keep me posted。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Please",
+      "keep me",
+      "posted"
+    ],
+    "scene_icon": "message"
+  },
+  {
+    "id": 214,
+    "category": "职场与会议",
+    "chinese_intent": "我们在同一频道吗？（达成共识）",
+    "anti_interference": "别说 Are we same channel？",
+    "core_framework": "Are we on...",
+    "correct_english": "Are we on the same page?",
+    "knowledge_point": "确认大家理解是否一致，用 on the same page。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Are we",
+      "on",
+      "the same page"
+    ],
+    "scene_icon": "book"
+  },
+  {
+    "id": 215,
+    "category": "职场与会议",
+    "chinese_intent": "这个项目我负责。",
+    "anti_interference": "别说 I boss this project！",
+    "core_framework": "I'm in charge...",
+    "correct_english": "I'm in charge of this project.",
+    "knowledge_point": "负责某事用 be in charge of。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I'm",
+      "in charge of",
+      "this project"
+    ],
+    "scene_icon": "briefcase"
+  },
+  {
+    "id": 216,
+    "category": "职场与会议",
+    "chinese_intent": "你被解雇了。",
+    "anti_interference": "别说 You are let go！",
+    "core_framework": "You're fired.",
+    "correct_english": "You're fired.",
+    "knowledge_point": "解雇是 fired，委婉裁员是 laid off。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "You're",
+      "fired"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 217,
+    "category": "职场与会议",
+    "chinese_intent": "我要辞职。",
+    "anti_interference": "别说 I want to stop work！",
+    "core_framework": "I quit.",
+    "correct_english": "I quit.",
+    "knowledge_point": "口语中辞职最干脆的就是 I quit，正式文书用 resign。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I",
+      "quit"
+    ],
+    "scene_icon": "door"
+  },
+  {
+    "id": 218,
+    "category": "职场与会议",
+    "chinese_intent": "你能顶替我一下吗？",
+    "anti_interference": "别说 Can you replace me？",
+    "core_framework": "Could you cover for...",
+    "correct_english": "Could you cover for me this afternoon?",
+    "knowledge_point": "同事之间互相顶班/代班，用 cover for sb。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Could you",
+      "cover for me",
+      "this afternoon"
+    ],
+    "scene_icon": "handshake"
+  },
+  {
+    "id": 219,
+    "category": "职场与会议",
+    "chinese_intent": "加班。",
+    "anti_interference": "别说 Add work！",
+    "core_framework": "I have to...",
+    "correct_english": "I have to work overtime tonight.",
+    "knowledge_point": "加班的标准表达：work overtime。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I have to",
+      "work overtime",
+      "tonight"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 220,
+    "category": "职场与会议",
+    "chinese_intent": "这是最终决定。",
+    "anti_interference": "别说 This is last decide！",
+    "core_framework": "It's my...",
+    "correct_english": "It's my final call.",
+    "knowledge_point": "拍板/做决定不仅用 decision，还常用 call。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "It's",
+      "my",
+      "final call"
+    ],
+    "scene_icon": "megaphone"
+  },
+  {
+    "id": 221,
+    "category": "职场与会议",
+    "chinese_intent": "我们推进一下进度吧。",
+    "anti_interference": "别说 Let's push progress！",
+    "core_framework": "Let's move forward...",
+    "correct_english": "Let's move forward with this plan.",
+    "knowledge_point": "项目推进最常用的短语 move forward。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Let's",
+      "move forward",
+      "with this plan"
+    ],
+    "scene_icon": "chart_bar"
+  },
+  {
+    "id": 222,
+    "category": "职场与会议",
+    "chinese_intent": "以防万一。",
+    "anti_interference": "别说 Prevent ten thousand one！",
+    "core_framework": "Keep a backup copy...",
+    "correct_english": "Keep a backup copy, just in case.",
+    "knowledge_point": "以防万一的绝对常用语：just in case。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Keep a backup copy",
+      "just",
+      "in case"
+    ],
+    "scene_icon": "lock"
+  },
+  {
+    "id": 223,
+    "category": "职场与会议",
+    "chinese_intent": "今天就到这里。",
+    "anti_interference": "别说 Stop today！",
+    "core_framework": "Let's call it...",
+    "correct_english": "Let's call it a day.",
+    "knowledge_point": "下班或会议结束的标志性名言。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Let's",
+      "call it",
+      "a day"
+    ],
+    "scene_icon": "coffee_cup"
+  },
+  {
+    "id": 224,
+    "category": "职场与会议",
+    "chinese_intent": "我有话直说。",
+    "anti_interference": "别说 I speak straight！",
+    "core_framework": "To be frank...",
+    "correct_english": "To be frank with you.",
+    "knowledge_point": "坦白讲、有话直说：to be frank / to be honest。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "To be",
+      "frank",
+      "with you"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 225,
+    "category": "职场与会议",
+    "chinese_intent": "跑题了。",
+    "anti_interference": "别说 Run away from topic！",
+    "core_framework": "We're getting a...",
+    "correct_english": "We're getting a bit off topic.",
+    "knowledge_point": "偏离主题用 off topic。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "We're getting",
+      "a bit",
+      "off topic"
+    ],
+    "scene_icon": "crossroads"
+  },
+  {
+    "id": 226,
+    "category": "职场与会议",
+    "chinese_intent": "这件事优先级很高。",
+    "anti_interference": "别说 This is very first！",
+    "core_framework": "This is our...",
+    "correct_english": "This is our top priority.",
+    "knowledge_point": "优先级：priority。最高优先级：top priority。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "This is",
+      "our",
+      "top priority"
+    ],
+    "scene_icon": "target"
+  },
+  {
+    "id": 227,
+    "category": "职场与会议",
+    "chinese_intent": "会议推迟了。",
+    "anti_interference": "别说 Meeting is late！",
+    "core_framework": "The meeting has been...",
+    "correct_english": "The meeting has been pushed back to 3 PM.",
+    "knowledge_point": "推迟除了 postpone，口语极常用 push back。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "The meeting has been",
+      "pushed back",
+      "to 3 PM"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 228,
+    "category": "职场与会议",
+    "chinese_intent": "我想确认一下。",
+    "anti_interference": "别说 I want to make sure again！",
+    "core_framework": "I just wanted...",
+    "correct_english": "I just wanted to double check.",
+    "knowledge_point": "再次确认/核对用 double check。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I just wanted",
+      "to",
+      "double check"
+    ],
+    "scene_icon": "check"
+  },
+  {
+    "id": 229,
+    "category": "职场与会议",
+    "chinese_intent": "尽快给我答复。",
+    "anti_interference": "别说 Answer me quickly！",
+    "core_framework": "Please get back...",
+    "correct_english": "Please get back to me ASAP.",
+    "knowledge_point": "回复邮件/信息用 get back to sb。ASAP = as soon as possible。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Please",
+      "get back to me",
+      "ASAP"
+    ],
+    "scene_icon": "message"
+  },
+  {
+    "id": 230,
+    "category": "职场与会议",
+    "chinese_intent": "你现在有空吗？",
+    "anti_interference": "别说 Are you empty now？",
+    "core_framework": "Do you have...",
+    "correct_english": "Do you have a minute?",
+    "knowledge_point": "职场找同事说话前，先问对方是否有空。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Do you",
+      "have",
+      "a minute"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 231,
+    "category": "居家与家务",
+    "chinese_intent": "水龙头漏水。",
+    "anti_interference": "别说 Water tap leak water！",
+    "core_framework": "The faucet...",
+    "correct_english": "The faucet is leaking.",
+    "knowledge_point": "北美英语水龙头叫 faucet，英式叫 tap。漏水直接用动词 leak。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "The faucet",
+      "is",
+      "leaking"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 232,
+    "category": "居家与家务",
+    "chinese_intent": "我去倒垃圾。",
+    "anti_interference": "别说 I throw garbage！",
+    "core_framework": "I'll take out...",
+    "correct_english": "I'll take out the trash.",
+    "knowledge_point": "把垃圾拿出去扔掉用 take out。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I'll",
+      "take out",
+      "the trash"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 233,
+    "category": "居家与家务",
+    "chinese_intent": "马桶堵了。",
+    "anti_interference": "别说 Toilet is blocked！太中式。",
+    "core_framework": "The toilet...",
+    "correct_english": "The toilet is clogged.",
+    "knowledge_point": "管道、马桶堵塞专用词 clog。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "The toilet",
+      "is",
+      "clogged"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 234,
+    "category": "居家与家务",
+    "chinese_intent": "该洗衣服了。",
+    "anti_interference": "别说 Wash clothes！太直白。",
+    "core_framework": "It's time to...",
+    "correct_english": "It's time to do the laundry.",
+    "knowledge_point": "洗衣服（作为一个家务项）统称为 do the laundry。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's time to",
+      "do",
+      "the laundry"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 235,
+    "category": "居家与家务",
+    "chinese_intent": "麻烦把地扫一下。",
+    "anti_interference": "别说 Clean the floor！那是擦地。",
+    "core_framework": "Could you sweep...",
+    "correct_english": "Could you sweep the floor?",
+    "knowledge_point": "扫地是 sweep，拖地是 mop。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Could you",
+      "sweep",
+      "the floor"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 236,
+    "category": "居家与家务",
+    "chinese_intent": "冰箱里什么都没了。",
+    "anti_interference": "别说 Fridge is empty！",
+    "core_framework": "There's nothing left...",
+    "correct_english": "There's nothing left in the fridge.",
+    "knowledge_point": "表达“剩下的东西”用 left 作为后置定语。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "There's",
+      "nothing left",
+      "in the fridge"
+    ],
+    "scene_icon": "fridge"
+  },
+  {
+    "id": 237,
+    "category": "居家与家务",
+    "chinese_intent": "把灯关上。",
+    "anti_interference": "别说 Close the light！闭嘴可以，闭灯不行。",
+    "core_framework": "Please turn off...",
+    "correct_english": "Please turn off the lights.",
+    "knowledge_point": "电子设备的开关必须用 turn on / turn off。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Please",
+      "turn off",
+      "the lights"
+    ],
+    "scene_icon": "bulb"
+  },
+  {
+    "id": 238,
+    "category": "居家与家务",
+    "chinese_intent": "停电了。",
+    "anti_interference": "别说 Power stop！",
+    "core_framework": "The power...",
+    "correct_english": "The power went out.",
+    "knowledge_point": "停电也可以说 We have a blackout。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "The power",
+      "went",
+      "out"
+    ],
+    "scene_icon": "fire"
+  },
+  {
+    "id": 239,
+    "category": "居家与家务",
+    "chinese_intent": "该交房租了。",
+    "anti_interference": "别说 Give rent money！",
+    "core_framework": "The rent is...",
+    "correct_english": "The rent is due tomorrow.",
+    "knowledge_point": "费用到期要交了，用 be due。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "The rent",
+      "is due",
+      "tomorrow"
+    ],
+    "scene_icon": "money"
+  },
+  {
+    "id": 240,
+    "category": "居家与家务",
+    "chinese_intent": "把狗遛一下。",
+    "anti_interference": "别说 Walk with dog！",
+    "core_framework": "It's your turn to...",
+    "correct_english": "It's your turn to walk the dog.",
+    "knowledge_point": "遛狗中 walk 是及物动词。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It's your turn",
+      "to",
+      "walk the dog"
+    ],
+    "scene_icon": "walk"
+  },
+  {
+    "id": 241,
+    "category": "社交与寒暄",
+    "chinese_intent": "辛苦了。",
+    "anti_interference": "千万别翻译成 You are tired / hard work！英语里没有这个概念。",
+    "core_framework": "I appreciate it.",
+    "correct_english": "I really appreciate your help.",
+    "knowledge_point": "西方文化中表达对方辛苦，通常直接表达“感谢”。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I really",
+      "appreciate",
+      "your help"
+    ],
+    "scene_icon": "handshake"
+  },
+  {
+    "id": 242,
+    "category": "社交与寒暄",
+    "chinese_intent": "好久不见。",
+    "anti_interference": "除了 Long time no see，你还能说啥？",
+    "core_framework": "It's been a while.",
+    "correct_english": "It's been a while!",
+    "knowledge_point": "最自然地道的打招呼。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "It's",
+      "been",
+      "a while"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 243,
+    "category": "社交与寒暄",
+    "chinese_intent": "最近怎么样？",
+    "anti_interference": "别老是 How are you！",
+    "core_framework": "How's it going?",
+    "correct_english": "How's it going?",
+    "knowledge_point": "更轻快随意的问候。回复可以说 It's going well。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "How's",
+      "it",
+      "going"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 244,
+    "category": "社交与寒暄",
+    "chinese_intent": "随你便。/ 听你的。",
+    "anti_interference": "别说 Follow you！",
+    "core_framework": "It's up...",
+    "correct_english": "It's up to you.",
+    "knowledge_point": "决定权交给对方：up to you。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "It's",
+      "up to",
+      "you"
+    ],
+    "scene_icon": "shrug"
+  },
+  {
+    "id": 245,
+    "category": "社交与寒暄",
+    "chinese_intent": "慢慢来，别着急。",
+    "anti_interference": "别说 Slowly come！",
+    "core_framework": "Take your time.",
+    "correct_english": "Take your time.",
+    "knowledge_point": "安慰别人不用急的超级常用句。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Take",
+      "your",
+      "time"
+    ],
+    "scene_icon": "hourglass"
+  },
+  {
+    "id": 246,
+    "category": "社交与寒暄",
+    "chinese_intent": "我先走了。",
+    "anti_interference": "别说 I go first！极其极其生硬。",
+    "core_framework": "I'm gonna...",
+    "correct_english": "I'm gonna head out.",
+    "knowledge_point": "离开聚会或办公室，用 head out 比 leave 显得更自然、轻松。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I'm gonna",
+      "head",
+      "out"
+    ],
+    "scene_icon": "walk"
+  },
+  {
+    "id": 247,
+    "category": "社交与寒暄",
+    "chinese_intent": "保持联系。",
+    "anti_interference": "别说 Keep in touch！那是书信结尾，口语少用。",
+    "core_framework": "Don't be a stranger.",
+    "correct_english": "Don't be a stranger!",
+    "knowledge_point": "地道表达：别成了陌生人（常联系啊）。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Don't",
+      "be",
+      "a stranger"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 248,
+    "category": "社交与寒暄",
+    "chinese_intent": "别往心里去。",
+    "anti_interference": "别说 Don't put in heart！",
+    "core_framework": "Don't take...",
+    "correct_english": "Don't take it personally.",
+    "knowledge_point": "意思是这不是针对你个人的，别介意。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Don't take it",
+      "personally"
+    ],
+    "scene_icon": "heart"
+  },
+  {
+    "id": 249,
+    "category": "社交与寒暄",
+    "chinese_intent": "不客气。",
+    "anti_interference": "别总用 You are welcome！",
+    "core_framework": "No worries.",
+    "correct_english": "No worries.",
+    "knowledge_point": "澳洲/英国/北美都极常用的轻松回复，相当于“没多大事”。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "No",
+      "worries"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 250,
+    "category": "社交与寒暄",
+    "chinese_intent": "我也这么想！",
+    "anti_interference": "别说 I think so too！太书面了。",
+    "core_framework": "You read...",
+    "correct_english": "You read my mind!",
+    "knowledge_point": "形容两人想到一块儿去了，仿佛读了我的心。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "You",
+      "read",
+      "my mind"
+    ],
+    "scene_icon": "brain"
+  },
+  {
+    "id": 251,
+    "category": "居家与家务",
+    "chinese_intent": "把被子叠好。",
+    "anti_interference": "别说 Fold the quilt！",
+    "core_framework": "Don't forget to...",
+    "correct_english": "Don't forget to make the bed.",
+    "knowledge_point": "整理床铺（包括叠被子、铺床单）统称为 make the bed。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Don't forget to",
+      "make",
+      "the bed"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 252,
+    "category": "居家与家务",
+    "chinese_intent": "桌子上有很多灰。",
+    "anti_interference": "别说 There is a lot of grey！",
+    "core_framework": "The table is...",
+    "correct_english": "The table is covered in dust.",
+    "knowledge_point": "灰尘是 dust，布满灰尘用 covered in dust。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "The table is",
+      "covered in",
+      "dust"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 253,
+    "category": "居家与家务",
+    "chinese_intent": "把衣服晾起来。",
+    "anti_interference": "别说 Dry clothes in sun！",
+    "core_framework": "Please hang up...",
+    "correct_english": "Please hang up the clothes.",
+    "knowledge_point": "挂起来 = hang up。如果是自然晾干用 air-dry。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Please",
+      "hang up",
+      "the clothes"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 254,
+    "category": "居家与家务",
+    "chinese_intent": "我把钥匙忘在家里了。",
+    "anti_interference": "别说 I forget my keys in house！",
+    "core_framework": "I left my...",
+    "correct_english": "I left my keys at home.",
+    "knowledge_point": "遗漏物品一定用 leave，不用 forget。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I left",
+      "my keys",
+      "at home"
+    ],
+    "scene_icon": "key"
+  },
+  {
+    "id": 255,
+    "category": "居家与家务",
+    "chinese_intent": "水槽下水道堵了。",
+    "anti_interference": "别说 Water pipe is block！",
+    "core_framework": "The sink is clogged.",
+    "correct_english": "The sink is clogged again.",
+    "knowledge_point": "水槽是 sink，堵塞是 clog。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "The sink",
+      "is",
+      "clogged again"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 256,
+    "category": "居家与家务",
+    "chinese_intent": "给植物浇水。",
+    "anti_interference": "别说 Give water to plant！",
+    "core_framework": "Did you water...",
+    "correct_english": "Did you water the plants?",
+    "knowledge_point": "water 直接作动词表示浇水。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Did you",
+      "water",
+      "the plants"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 257,
+    "category": "居家与家务",
+    "chinese_intent": "门锁坏了。",
+    "anti_interference": "别说 Door lock is broken！稍微普通。",
+    "core_framework": "The lock is jammed.",
+    "correct_english": "The door lock is jammed.",
+    "knowledge_point": "卡住了/坏了转不动，用 jammed 更形象。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "The door lock",
+      "is",
+      "jammed"
+    ],
+    "scene_icon": "lock"
+  },
+  {
+    "id": 258,
+    "category": "居家与家务",
+    "chinese_intent": "帮我把微波炉打开。",
+    "anti_interference": "别说 Open the microwave！",
+    "core_framework": "Could you turn...",
+    "correct_english": "Could you turn on the microwave?",
+    "knowledge_point": "电子设备的开关一律用 turn on/off。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Could you",
+      "turn on",
+      "the microwave"
+    ],
+    "scene_icon": "bulb"
+  },
+  {
+    "id": 259,
+    "category": "居家与家务",
+    "chinese_intent": "家里没厕纸了。",
+    "anti_interference": "别说 No toilet paper at home！",
+    "core_framework": "We ran out...",
+    "correct_english": "We ran out of toilet paper.",
+    "knowledge_point": "某物用光了、耗尽了：run out of。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "We",
+      "ran out of",
+      "toilet paper"
+    ],
+    "scene_icon": "empty"
+  },
+  {
+    "id": 260,
+    "category": "居家与家务",
+    "chinese_intent": "把地毯吸一下。",
+    "anti_interference": "别说 Clean the carpet！",
+    "core_framework": "Can you vacuum...",
+    "correct_english": "Can you vacuum the carpet?",
+    "knowledge_point": "吸尘器是 vacuum，做动词就是吸尘。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Can you",
+      "vacuum",
+      "the carpet"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 261,
+    "category": "社交与寒暄",
+    "chinese_intent": "你今天真好看！",
+    "anti_interference": "别说 You look very good today！略微敷衍。",
+    "core_framework": "You look...",
+    "correct_english": "You look stunning today!",
+    "knowledge_point": "夸人漂亮/帅，用 stunning 极具杀伤力。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "You look",
+      "stunning",
+      "today"
+    ],
+    "scene_icon": "star"
+  },
+  {
+    "id": 262,
+    "category": "社交与寒暄",
+    "chinese_intent": "说到曹操，曹操就到。",
+    "anti_interference": "别说 Cao Cao arrives！",
+    "core_framework": "Speak of the devil.",
+    "correct_english": "Speak of the devil.",
+    "knowledge_point": "经典俚语，指正谈论某人某人就出现了。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Speak",
+      "of",
+      "the devil"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 263,
+    "category": "社交与寒暄",
+    "chinese_intent": "别卖关子了。",
+    "anti_interference": "别说 Don't sell tricks！",
+    "core_framework": "Come on, just...",
+    "correct_english": "Come on, just spit it out.",
+    "knowledge_point": "催促别人快点说出秘密/想说的话：吐出来（spit it out）。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Come on",
+      "just",
+      "spit it out"
+    ],
+    "scene_icon": "megaphone"
+  },
+  {
+    "id": 264,
+    "category": "社交与寒暄",
+    "chinese_intent": "你方便时给我回电话。",
+    "anti_interference": "别说 Call me when you are convenient！中式英语典型错误。",
+    "core_framework": "Call me back at...",
+    "correct_english": "Call me back at your earliest convenience.",
+    "knowledge_point": "convenient 的主语不能是人。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Call me back",
+      "at your earliest",
+      "convenience"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 265,
+    "category": "社交与寒暄",
+    "chinese_intent": "我们在哪儿见过吗？",
+    "anti_interference": "别说 Have we met somewhere？",
+    "core_framework": "You look...",
+    "correct_english": "You look very familiar.",
+    "knowledge_point": "搭讪/认人最地道的开场白：你看上去很面熟。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "You look",
+      "very",
+      "familiar"
+    ],
+    "scene_icon": "magnifier"
+  },
+  {
+    "id": 266,
+    "category": "社交与寒暄",
+    "chinese_intent": "代我向你父母问好。",
+    "anti_interference": "别说 Say hello to your parents for me！略显生硬。",
+    "core_framework": "Give my regards to...",
+    "correct_english": "Give my best regards to your parents.",
+    "knowledge_point": "表达问候用 give my regards。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Give my",
+      "best regards to",
+      "your parents"
+    ],
+    "scene_icon": "handshake"
+  },
+  {
+    "id": 267,
+    "category": "社交与寒暄",
+    "chinese_intent": "别客气，当自己家一样。",
+    "anti_interference": "别说 Don't be polite, like your home！",
+    "core_framework": "Please, make yourself...",
+    "correct_english": "Please, make yourself at home.",
+    "knowledge_point": "招待客人必备名句。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Please",
+      "make yourself",
+      "at home"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 268,
+    "category": "社交与寒暄",
+    "chinese_intent": "你有什么瞒着我吗？",
+    "anti_interference": "别说 Do you hide anything？",
+    "core_framework": "Are you holding anything...",
+    "correct_english": "Are you holding anything back from me?",
+    "knowledge_point": "隐瞒不说，用 hold back。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Are you",
+      "holding anything back",
+      "from me"
+    ],
+    "scene_icon": "lock"
+  },
+  {
+    "id": 269,
+    "category": "社交与寒暄",
+    "chinese_intent": "我们在哪聊到哪了？",
+    "anti_interference": "别说 Where did we talk？",
+    "core_framework": "So, where...",
+    "correct_english": "So, where were we?",
+    "knowledge_point": "谈话被打断后重新开始的极高频短语。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "So",
+      "where",
+      "were we"
+    ],
+    "scene_icon": "puzzle"
+  },
+  {
+    "id": 270,
+    "category": "社交与寒暄",
+    "chinese_intent": "那我就不打扰你了。",
+    "anti_interference": "别说 I don't disturb you！",
+    "core_framework": "I'll let you...",
+    "correct_english": "I'll let you go then.",
+    "knowledge_point": "委婉结束电话或谈话，意思是“我让你去忙吧”。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'll",
+      "let you go",
+      "then"
+    ],
+    "scene_icon": "walk"
+  },
+  {
+    "id": 271,
+    "category": "情绪与表达",
+    "chinese_intent": "气死我了。",
+    "anti_interference": "别说 Angry die me！",
+    "core_framework": "I'm really...",
+    "correct_english": "I'm really pissed off.",
+    "knowledge_point": "口语中表示极其生气，最常用 pissed off。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I'm really",
+      "pissed off"
+    ],
+    "scene_icon": "fire"
+  },
+  {
+    "id": 272,
+    "category": "情绪与表达",
+    "chinese_intent": "你吓死我了！",
+    "anti_interference": "别说 You scare me to death！",
+    "core_framework": "You scared the hell...",
+    "correct_english": "You scared the hell out of me!",
+    "knowledge_point": "夸张地表示被吓到，非常口语化。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "You scared",
+      "the hell out of",
+      "me"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 273,
+    "category": "情绪与表达",
+    "chinese_intent": "我受够了。",
+    "anti_interference": "别说 I am enough！",
+    "core_framework": "I've had enough...",
+    "correct_english": "I've had enough of this.",
+    "knowledge_point": "表达忍无可忍。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I've",
+      "had enough of",
+      "this"
+    ],
+    "scene_icon": "stop"
+  },
+  {
+    "id": 274,
+    "category": "情绪与表达",
+    "chinese_intent": "别烦我。",
+    "anti_interference": "别说 Don't annoy me！",
+    "core_framework": "Just leave...",
+    "correct_english": "Just leave me alone.",
+    "knowledge_point": "别理我/让我一个人待着。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Just",
+      "leave me",
+      "alone"
+    ],
+    "scene_icon": "hand"
+  },
+  {
+    "id": 275,
+    "category": "情绪与表达",
+    "chinese_intent": "我太激动了！",
+    "anti_interference": "别说 I am very exciting！",
+    "core_framework": "I'm so pumped...",
+    "correct_english": "I'm so pumped for this!",
+    "knowledge_point": "exciting 修饰物，excited 修饰人。但更地道的是 pumped 或 thrilled。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm so",
+      "pumped",
+      "for this"
+    ],
+    "scene_icon": "run"
+  },
+  {
+    "id": 276,
+    "category": "情绪与表达",
+    "chinese_intent": "我快疯了。",
+    "anti_interference": "别说 I will be crazy！",
+    "core_framework": "This is driving...",
+    "correct_english": "This is driving me crazy.",
+    "knowledge_point": "某事快把我逼疯了。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "This is",
+      "driving me",
+      "crazy"
+    ],
+    "scene_icon": "brain"
+  },
+  {
+    "id": 277,
+    "category": "情绪与表达",
+    "chinese_intent": "真遗憾。",
+    "anti_interference": "别说 It's a pity（略书面）或 True regret！",
+    "core_framework": "Oh man, what...",
+    "correct_english": "Oh man, what a bummer.",
+    "knowledge_point": "遇到倒霉事/扫兴事，叹气说 bummer。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "Oh man",
+      "what a",
+      "bummer"
+    ],
+    "scene_icon": "tear"
+  },
+  {
+    "id": 278,
+    "category": "情绪与表达",
+    "chinese_intent": "你太过分了。",
+    "anti_interference": "别说 You are too much！其实是可以的，但有更好的。",
+    "core_framework": "You've crossed...",
+    "correct_english": "You've crossed the line.",
+    "knowledge_point": "越界了/太过分了。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "You've",
+      "crossed",
+      "the line"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 279,
+    "category": "情绪与表达",
+    "chinese_intent": "放松点，别紧张。",
+    "anti_interference": "别说 Don't nervous！",
+    "core_framework": "Just take...",
+    "correct_english": "Just take it easy.",
+    "knowledge_point": "最经典的安慰语，放轻松。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "Just",
+      "take it",
+      "easy"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 280,
+    "category": "情绪与表达",
+    "chinese_intent": "我很无语。",
+    "anti_interference": "别说 I have no words！",
+    "core_framework": "I'm...",
+    "correct_english": "I'm completely speechless.",
+    "knowledge_point": "被惊奇或气到说不出话：speechless。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I'm",
+      "completely",
+      "speechless"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 281,
+    "category": "情绪与表达",
+    "chinese_intent": "我只是开个玩笑。",
+    "anti_interference": "别说 I only open a joke！",
+    "core_framework": "I'm...",
+    "correct_english": "I'm just kidding.",
+    "knowledge_point": "开玩笑 kidding 或 joking。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I'm",
+      "just",
+      "kidding"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 282,
+    "category": "情绪与表达",
+    "chinese_intent": "真是个惊喜！",
+    "anti_interference": "别说 True surprise！",
+    "core_framework": "Wow, what...",
+    "correct_english": "Wow, what a surprise!",
+    "knowledge_point": "What a + 名词！感叹句型。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "Wow",
+      "what a",
+      "surprise"
+    ],
+    "scene_icon": "star"
+  },
+  {
+    "id": 283,
+    "category": "情绪与表达",
+    "chinese_intent": "他让我恶心。",
+    "anti_interference": "别说 He makes me sick！有时有歧义，指生病。",
+    "core_framework": "He really disgusts me...",
+    "correct_english": "He really disgusts me. / It's disgusting.",
+    "knowledge_point": "感到恶心/令人厌恶用 disgust。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "He really",
+      "disgusts",
+      "me"
+    ],
+    "scene_icon": "angry"
+  },
+  {
+    "id": 284,
+    "category": "情绪与表达",
+    "chinese_intent": "我很内疚。",
+    "anti_interference": "别说 I feel bad inside！",
+    "core_framework": "I feel really...",
+    "correct_english": "I feel really guilty about it.",
+    "knowledge_point": "内疚的专业词：guilty。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I feel",
+      "really guilty",
+      "about it"
+    ],
+    "scene_icon": "thinking"
+  },
+  {
+    "id": 285,
+    "category": "情绪与表达",
+    "chinese_intent": "我不在乎。",
+    "anti_interference": "别说 I don't care！有时显得有点粗鲁。",
+    "core_framework": "It doesn't matter.",
+    "correct_english": "It doesn't really matter to me.",
+    "knowledge_point": "委婉表达“无所谓/不在乎”：it doesn't matter。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "It doesn't",
+      "really matter",
+      "to me"
+    ],
+    "scene_icon": "shrug"
+  },
+  {
+    "id": 286,
+    "category": "情绪与表达",
+    "chinese_intent": "我对你很失望。",
+    "anti_interference": "别说 I am disappointed to you！",
+    "core_framework": "I'm very disappointed...",
+    "correct_english": "I'm very disappointed in you.",
+    "knowledge_point": "对某人失望，介词一定要用 in 或者 with，不用 to。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I'm very",
+      "disappointed",
+      "in you"
+    ],
+    "scene_icon": "tear"
+  },
+  {
+    "id": 287,
+    "category": "情绪与表达",
+    "chinese_intent": "我松了一口气。",
+    "anti_interference": "别说 I let go a breath！",
+    "core_framework": "I'm so relieved...",
+    "correct_english": "I'm so relieved to hear that.",
+    "knowledge_point": "感到如释重负：relieved。名词形式是 What a relief。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm so",
+      "relieved",
+      "to hear that"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 288,
+    "category": "情绪与表达",
+    "chinese_intent": "别对我发火。",
+    "anti_interference": "别说 Don't fire at me！",
+    "core_framework": "Don't take it...",
+    "correct_english": "Don't take it out on me.",
+    "knowledge_point": "把火撒在某人身上，固定搭配 take it out on sb。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Don't",
+      "take it out",
+      "on me"
+    ],
+    "scene_icon": "angry"
+  },
+  {
+    "id": 289,
+    "category": "情绪与表达",
+    "chinese_intent": "这让我很尴尬。",
+    "anti_interference": "别说 That makes me awkward！",
+    "core_framework": "That was...",
+    "correct_english": "That was so embarrassing.",
+    "knowledge_point": "尴尬的场面：embarrassing。awkward 通常指笨拙或冷场。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "That was",
+      "so",
+      "embarrassing"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 290,
+    "category": "情绪与表达",
+    "chinese_intent": "我感觉糟透了。",
+    "anti_interference": "别说 I feel terrible！这个是对的，还可以说？",
+    "core_framework": "I feel awful...",
+    "correct_english": "I feel awful about what happened.",
+    "knowledge_point": "awful 和 terrible 是绝佳的近义词。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I feel",
+      "awful",
+      "about what happened"
+    ],
+    "scene_icon": "tear"
+  },
+  {
+    "id": 291,
+    "category": "身体与看病",
+    "chinese_intent": "我感冒了。",
+    "anti_interference": "别说 I have a cold！其实对的，但还有更生动的。",
+    "core_framework": "I think I...",
+    "correct_english": "I think I caught a cold.",
+    "knowledge_point": "染上感冒用 catch a cold。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I think",
+      "I caught",
+      "a cold"
+    ],
+    "scene_icon": "pill"
+  },
+  {
+    "id": 292,
+    "category": "身体与看病",
+    "chinese_intent": "我流鼻涕。",
+    "anti_interference": "别说 My nose is flowing water！",
+    "core_framework": "I have a...",
+    "correct_english": "I have a runny nose.",
+    "knowledge_point": "流鼻涕固定表达：runny nose。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I have",
+      "a",
+      "runny nose"
+    ],
+    "scene_icon": "tear"
+  },
+  {
+    "id": 293,
+    "category": "身体与看病",
+    "chinese_intent": "我发烧了。",
+    "anti_interference": "别说 My body is hot！",
+    "core_framework": "I'm running a...",
+    "correct_english": "I'm running a slight fever.",
+    "knowledge_point": "发烧可以说是 have a fever 或更生动的 run a fever。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm",
+      "running",
+      "a slight fever"
+    ],
+    "scene_icon": "fire"
+  },
+  {
+    "id": 294,
+    "category": "身体与看病",
+    "chinese_intent": "我嗓子疼。",
+    "anti_interference": "别说 My throat hurts！对但普通。",
+    "core_framework": "I have a...",
+    "correct_english": "I have a sore throat.",
+    "knowledge_point": "喉咙痛极固定说法：sore throat。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I have",
+      "a",
+      "sore throat"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 295,
+    "category": "身体与看病",
+    "chinese_intent": "我拉肚子了。",
+    "anti_interference": "别说 I pull belly！",
+    "core_framework": "I...",
+    "correct_english": "I have diarrhea.",
+    "knowledge_point": "腹泻的医学/常用词：diarrhea（拼写注意）。口语也可说 the runs。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I",
+      "have",
+      "diarrhea"
+    ],
+    "scene_icon": "water"
+  },
+  {
+    "id": 296,
+    "category": "身体与看病",
+    "chinese_intent": "我对海鲜过敏。",
+    "anti_interference": "别说 I am allergic of seafood！介词错误。",
+    "core_framework": "I'm allergic...",
+    "correct_english": "I'm allergic to seafood.",
+    "knowledge_point": "对...过敏，介词必定搭配 to。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I'm",
+      "allergic to",
+      "seafood"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 297,
+    "category": "身体与看病",
+    "chinese_intent": "我想吐。",
+    "anti_interference": "别说 I want to vomit！太直白了。",
+    "core_framework": "I feel a...",
+    "correct_english": "I feel a bit nauseous.",
+    "knowledge_point": "想吐/恶心，用 nauseous，或者可以说 I feel like throwing up。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I feel",
+      "a bit",
+      "nauseous"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 298,
+    "category": "身体与看病",
+    "chinese_intent": "我浑身酸痛。",
+    "anti_interference": "别说 My whole body hurts！",
+    "core_framework": "My body is...",
+    "correct_english": "My body is aching all over.",
+    "knowledge_point": "持续性的酸痛用 ache，all over 强调全身。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "My body is",
+      "aching",
+      "all over"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 299,
+    "category": "身体与看病",
+    "chinese_intent": "我胃不舒服。",
+    "anti_interference": "别说 My stomach is not comfortable！",
+    "core_framework": "I have an...",
+    "correct_english": "I have an upset stomach.",
+    "knowledge_point": "胃病/消化不良的统称：upset stomach。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I have",
+      "an",
+      "upset stomach"
+    ],
+    "scene_icon": "food"
+  },
+  {
+    "id": 300,
+    "category": "身体与看病",
+    "chinese_intent": "我要去看医生。",
+    "anti_interference": "别说 I go to look doctor！",
+    "core_framework": "I need to...",
+    "correct_english": "I need to see a doctor.",
+    "knowledge_point": "看病必定用 see a doctor。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I need to",
+      "see",
+      "a doctor"
+    ],
+    "scene_icon": "stethoscope"
+  },
+  {
+    "id": 301,
+    "category": "身体与看病",
+    "chinese_intent": "扭伤了脚踝。",
+    "anti_interference": "别说 I broke my ankle！那是骨折。",
+    "core_framework": "I sprained my...",
+    "correct_english": "I sprained my ankle playing basketball.",
+    "knowledge_point": "扭伤用 sprain，骨折用 break/fracture。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I",
+      "sprained",
+      "my ankle"
+    ],
+    "scene_icon": "walk"
+  },
+  {
+    "id": 302,
+    "category": "身体与看病",
+    "chinese_intent": "流鼻血。",
+    "anti_interference": "别说 Nose bleed water！",
+    "core_framework": "I've got a bloody...",
+    "correct_english": "I've got a bloody nose. / My nose is bleeding.",
+    "knowledge_point": "流鼻血的直接短语。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I've got",
+      "a",
+      "bloody nose"
+    ],
+    "scene_icon": "face"
+  },
+  {
+    "id": 303,
+    "category": "身体与看病",
+    "chinese_intent": "医生给我开了处方。",
+    "anti_interference": "别说 Doctor give me paper！",
+    "core_framework": "The doctor wrote...",
+    "correct_english": "The doctor wrote me a prescription.",
+    "knowledge_point": "处方/药方是 prescription，开处方用 write。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "The doctor",
+      "wrote me",
+      "a prescription"
+    ],
+    "scene_icon": "book"
+  },
+  {
+    "id": 304,
+    "category": "身体与看病",
+    "chinese_intent": "这药怎么吃？",
+    "anti_interference": "别说 How to eat this medicine？",
+    "core_framework": "How often should I...",
+    "correct_english": "How often should I take this medication?",
+    "knowledge_point": "吃药绝不能用 eat，必须用 take。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "How often",
+      "should I take",
+      "this medication"
+    ],
+    "scene_icon": "pill"
+  },
+  {
+    "id": 305,
+    "category": "身体与看病",
+    "chinese_intent": "我头晕。",
+    "anti_interference": "别说 My head is running！",
+    "core_framework": "I'm feeling a...",
+    "correct_english": "I'm feeling a little dizzy.",
+    "knowledge_point": "头晕目眩用 dizzy。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "I'm feeling",
+      "a little",
+      "dizzy"
+    ],
+    "scene_icon": "brain"
+  },
+  {
+    "id": 306,
+    "category": "身体与看病",
+    "chinese_intent": "失眠了。",
+    "anti_interference": "别说 Lose sleep！",
+    "core_framework": "I couldn't fall...",
+    "correct_english": "I couldn't fall asleep last night.",
+    "knowledge_point": "可以说 have insomnia，但口语常直接说 couldn't fall asleep。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I couldn't",
+      "fall asleep",
+      "last night"
+    ],
+    "scene_icon": "moon"
+  },
+  {
+    "id": 307,
+    "category": "身体与看病",
+    "chinese_intent": "我牙疼。",
+    "anti_interference": "别说 Tooth hurts！",
+    "core_framework": "I've got a...",
+    "correct_english": "I've got a terrible toothache.",
+    "knowledge_point": "牙疼/头疼/胃疼都有复合词：toothache, headache, stomachache。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I've got",
+      "a terrible",
+      "toothache"
+    ],
+    "scene_icon": "tooth"
+  },
+  {
+    "id": 308,
+    "category": "身体与看病",
+    "chinese_intent": "我有点水土不服。",
+    "anti_interference": "别说 I don't fit water and soil！",
+    "core_framework": "I'm feeling a bit...",
+    "correct_english": "I'm feeling a bit under the weather.",
+    "knowledge_point": "感觉不舒服、微恙，极其高频的习语 under the weather。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I'm feeling",
+      "a bit",
+      "under the weather"
+    ],
+    "scene_icon": "cloud"
+  },
+  {
+    "id": 309,
+    "category": "身体与看病",
+    "chinese_intent": "我的腿麻了。",
+    "anti_interference": "别说 My leg is numb！对，但太医学。",
+    "core_framework": "My leg went...",
+    "correct_english": "My leg went to sleep.",
+    "knowledge_point": "口语中说肢体麻木了，常用 go to sleep。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "My leg",
+      "went to",
+      "sleep"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 310,
+    "category": "身体与看病",
+    "chinese_intent": "我好多了。",
+    "anti_interference": "别说 I am good more！",
+    "core_framework": "I'm feeling much...",
+    "correct_english": "I'm feeling much better now, thanks.",
+    "knowledge_point": "病情好转，直接用比较级 better 即可。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "I'm feeling",
+      "much better",
+      "now"
+    ],
+    "scene_icon": "smile"
+  },
+  {
+    "id": 311,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "每两周一次。",
+    "anti_interference": "别说 Every two weeks！对的，但不够高级。",
+    "core_framework": "We hold meetings...",
+    "correct_english": "We hold meetings every other week.",
+    "knowledge_point": "隔周、隔天 = every other week/day，更地道。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "We hold meetings",
+      "every other",
+      "week"
+    ],
+    "scene_icon": "calendar"
+  },
+  {
+    "id": 312,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "前天。",
+    "anti_interference": "别说 The day before yesterday！",
+    "core_framework": "I saw him the...",
+    "correct_english": "I saw him the day before yesterday.",
+    "knowledge_point": "前天没毛病，大后天是 the day after tomorrow。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "I saw him",
+      "the day before",
+      "yesterday"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 313,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "他二十出头。",
+    "anti_interference": "别说 He is twenty something！",
+    "core_framework": "He is in...",
+    "correct_english": "He is in his early twenties.",
+    "knowledge_point": "二十出头 early twenties，二十多岁中 mid-twenties，快三十 late twenties。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "He is",
+      "in his",
+      "early twenties"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 314,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "我们五五分账。",
+    "anti_interference": "别说 We divide five five！",
+    "core_framework": "Let's go fifty-fifty...",
+    "correct_english": "Let's go fifty-fifty on this.",
+    "knowledge_point": "对半分账，平摊：go fifty-fifty。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "Let's go",
+      "fifty-fifty",
+      "on this"
+    ],
+    "scene_icon": "scale"
+  },
+  {
+    "id": 315,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "打个九折。",
+    "anti_interference": "别说 90% discount！",
+    "core_framework": "I can give you...",
+    "correct_english": "I can give you ten percent off.",
+    "knowledge_point": "中英文打折反义：九折等于减掉 10%，所以是 10% off。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "I can give you",
+      "ten percent",
+      "off"
+    ],
+    "scene_icon": "money"
+  },
+  {
+    "id": 316,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "成千上万的人。",
+    "anti_interference": "别说 Ten thousands of people！",
+    "core_framework": "There were tens of...",
+    "correct_english": "There were tens of thousands of people there.",
+    "knowledge_point": "中文万是单位，英文千是单位，所以几万是 tens of thousands。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "There were",
+      "tens of thousands of",
+      "people there"
+    ],
+    "scene_icon": "city"
+  },
+  {
+    "id": 317,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "差一刻到八点。",
+    "anti_interference": "别说 Fifteen to eight！",
+    "core_framework": "It's a quarter...",
+    "correct_english": "It's a quarter to eight.",
+    "knowledge_point": "一刻钟用 a quarter，差十五分用 to，过十五分用 past。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "It's",
+      "a quarter to",
+      "eight"
+    ],
+    "scene_icon": "clock"
+  },
+  {
+    "id": 318,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "你打错了（电话）。",
+    "anti_interference": "别说 You call wrong number！",
+    "core_framework": "I'm sorry, you have...",
+    "correct_english": "I'm sorry, you have the wrong number.",
+    "knowledge_point": "这是英语电话绝对固定句式。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "I'm sorry",
+      "you have",
+      "the wrong number"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 319,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "电话占线。",
+    "anti_interference": "别说 The line is busy！",
+    "core_framework": "The line is busy.",
+    "correct_english": "The line was busy when I called.",
+    "knowledge_point": "占线确实是 the line is busy，英国有时说 engaged。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "The line",
+      "was busy",
+      "when I called"
+    ],
+    "scene_icon": "phone"
+  },
+  {
+    "id": 320,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "大前天。",
+    "anti_interference": "别说 Big before yesterday！",
+    "core_framework": "It happened three...",
+    "correct_english": "It happened three days ago.",
+    "knowledge_point": "英语里没有大前天这种专用词，直接算几天前 three days ago 最清楚。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "It happened",
+      "three days",
+      "ago"
+    ],
+    "scene_icon": "calendar"
+  },
+  {
+    "id": 321,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "买二送一。",
+    "anti_interference": "别说 Buy two get one！",
+    "core_framework": "This is a buy...",
+    "correct_english": "This is a buy two, get one free promotion.",
+    "knowledge_point": "和 BOGO 类似，完整说法最后要加 free。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "buy two",
+      "get one free",
+      "promotion"
+    ],
+    "scene_icon": "bag"
+  },
+  {
+    "id": 322,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "十有八九。",
+    "anti_interference": "别说 Ten have eight or nine！",
+    "core_framework": "Nine times out of ten.",
+    "correct_english": "Nine times out of ten, he's late.",
+    "knowledge_point": "英语中习惯说“十次里有九次”。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "Nine times",
+      "out of ten",
+      "he's late"
+    ],
+    "scene_icon": "brain"
+  },
+  {
+    "id": 323,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "零下五度。",
+    "anti_interference": "别说 Zero down five degrees！",
+    "core_framework": "It's minus five...",
+    "correct_english": "It's minus five degrees outside.",
+    "knowledge_point": "零下可以说 minus 也可以说 below zero。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "It's",
+      "minus five degrees",
+      "outside"
+    ],
+    "scene_icon": "snow"
+  },
+  {
+    "id": 324,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "他大我三岁。",
+    "anti_interference": "别说 He is bigger me three years！",
+    "core_framework": "He is three years...",
+    "correct_english": "He is three years older than me.",
+    "knowledge_point": "年龄大用 older，不用 bigger。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "He is",
+      "three years",
+      "older than me"
+    ],
+    "scene_icon": "child"
+  },
+  {
+    "id": 325,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "这是他第二次迟到。",
+    "anti_interference": "别说 This is his second late！",
+    "core_framework": "This is the second...",
+    "correct_english": "This is the second time he's been late.",
+    "knowledge_point": "第几次做某事：the + 序数词 + time + 从句。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "This is",
+      "the second time",
+      "he's been late"
+    ],
+    "scene_icon": "warning"
+  },
+  {
+    "id": 326,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "一亿人口。",
+    "anti_interference": "别说 One hundred million！",
+    "core_framework": "The population is about...",
+    "correct_english": "The population is about one hundred million.",
+    "knowledge_point": "英语没有“亿”的单位，一亿是一百个百万。",
+    "animation_type": "magnetic_snap",
+    "highlight_chunks": [
+      "The population is",
+      "about",
+      "one hundred million"
+    ],
+    "scene_icon": "city"
+  },
+  {
+    "id": 327,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "全天候 / 24小时。",
+    "anti_interference": "别说 24 hours all day！",
+    "core_framework": "This convenience store...",
+    "correct_english": "This convenience store is open 24/7.",
+    "knowledge_point": "口语中极高频词：twenty-four seven（全天候无休）。",
+    "animation_type": "highlight_pulse",
+    "highlight_chunks": [
+      "This convenience store",
+      "is open",
+      "24/7"
+    ],
+    "scene_icon": "home"
+  },
+  {
+    "id": 328,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "他是个半吊子 / 一知半解。",
+    "anti_interference": "别说 He is half bottle！",
+    "core_framework": "He only has a...",
+    "correct_english": "He only has a superficial knowledge of it.",
+    "knowledge_point": "表示一知半解，可以形容为 superficial knowledge 或 knows just enough to be dangerous。",
+    "animation_type": "verb_flip",
+    "highlight_chunks": [
+      "He only has",
+      "a superficial knowledge",
+      "of it"
+    ],
+    "scene_icon": "brain"
+  },
+  {
+    "id": 329,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "一百万分之一的机会。",
+    "anti_interference": "别说 One million of one！",
+    "core_framework": "It's a one in...",
+    "correct_english": "It's a one in a million chance.",
+    "knowledge_point": "千里挑一/百万分之一的固定表达：one in a million。",
+    "animation_type": "shatter_effect",
+    "highlight_chunks": [
+      "It's a",
+      "one in a million",
+      "chance"
+    ],
+    "scene_icon": "star"
+  },
+  {
+    "id": 330,
+    "category": "数字与时间陷阱",
+    "chinese_intent": "一年半。",
+    "anti_interference": "别说 One year and a half year！",
+    "core_framework": "I've been living here...",
+    "correct_english": "I've been living here for a year and a half.",
+    "knowledge_point": "一年半：a year and a half。一个半小时：an hour and a half。",
+    "animation_type": "subject_shift",
+    "highlight_chunks": [
+      "living here for",
+      "a year",
+      "and a half"
+    ],
+    "scene_icon": "calendar"
+  }
+]

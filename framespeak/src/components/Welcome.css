@@ -1,0 +1,121 @@
+.welcome-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: var(--space-xl);
+}
+
+.brand { margin-bottom: var(--space-3xl); }
+
+.brand-logo {
+  font-family: var(--font-display);
+  font-size: clamp(48px, 8vw, 80px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-bright);
+  line-height: 1.1;
+  margin-bottom: var(--space-md);
+}
+
+.brand-logo .highlight {
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.brand-subtitle {
+  font-size: clamp(14px, 2.5vw, 18px);
+  color: var(--text-secondary);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.brand-slogan {
+  font-size: clamp(20px, 3.5vw, 28px);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-xl);
+}
+
+.brand-slogan em {
+  font-style: normal;
+  color: var(--accent-amber);
+  text-shadow: var(--glow-amber);
+}
+
+.brand-desc {
+  font-size: 15px;
+  color: var(--text-secondary);
+  max-width: 480px;
+  line-height: 1.8;
+  margin-bottom: var(--space-3xl);
+}
+
+/* Neon 开始按钮 */
+.btn-start {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 16px 48px;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text-bright);
+  background: var(--bg-secondary);
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s var(--ease-out);
+  z-index: 1;
+}
+
+.btn-start::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple), var(--accent-cyan));
+  background-size: 300% 300%;
+  animation: borderFlow 4s ease infinite;
+  z-index: -2;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-start::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: var(--bg-secondary);
+  z-index: -1;
+  transition: background 0.3s;
+}
+
+.btn-start:hover::before { opacity: 1; }
+.btn-start:hover::after { background: var(--bg-tertiary); }
+.btn-start:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--glow-cyan);
+}
+.btn-start:active { transform: translateY(0) scale(0.98); }
+
+.btn-start .arrow {
+  display: inline-block;
+  transition: transform 0.3s var(--ease-out);
+}
+.btn-start:hover .arrow { transform: translateX(4px); }
+
+.hint {
+  margin-top: var(--space-xl);
+  font-size: 13px;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}

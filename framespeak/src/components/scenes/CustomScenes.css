@@ -1,0 +1,80 @@
+/* 通用动画类 */
+.anim-draw-circle { stroke-dasharray: 300; stroke-dashoffset: 300; animation: drawLine 1.5s var(--ease-out) forwards; }
+.anim-draw-path { stroke-dasharray: 200; stroke-dashoffset: 200; animation: drawLine 1.2s var(--ease-out) 0.2s forwards; }
+
+@keyframes drawLine { to { stroke-dashoffset: 0; } }
+
+/* Time Scenes 动画 */
+.anim-spin-hours { animation: spin 12s linear infinite; }
+.anim-spin-minutes { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.anim-sand-top { transform-origin: center bottom; animation: shrinkSand 4s linear infinite; }
+.anim-sand-bottom { transform-origin: center bottom; animation: growSand 4s linear infinite; }
+.anim-sand-fall { stroke-dashoffset: 8; animation: fallSand 0.5s linear infinite; }
+
+@keyframes shrinkSand { 0% { transform: scaleY(1); } 90%, 100% { transform: scaleY(0); } }
+@keyframes growSand { 0% { transform: scaleY(0); } 90%, 100% { transform: scaleY(1); } }
+@keyframes fallSand { to { stroke-dashoffset: 0; } }
+
+.anim-pop-in { opacity: 0; animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
+@keyframes popIn { 0% { opacity: 0; transform: scale(0.5); } 100% { opacity: 1; transform: scale(1); } }
+
+.anim-flip-cell { opacity: 0; transform-origin: top; animation: flipCell 2s ease-in-out infinite; }
+@keyframes flipCell { 
+  0% { transform: perspective(100px) rotateX(-90deg); opacity: 0; } 
+  20%, 80% { transform: perspective(100px) rotateX(0deg); opacity: 0.8; }
+  100% { transform: perspective(100px) rotateX(90deg); opacity: 0; }
+}
+
+/* Weather Scenes 动画 */
+.anim-cloud-float { animation: floatCloud 4s ease-in-out infinite; }
+@keyframes floatCloud { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+
+.anim-rain-drop { stroke-dasharray: 4 6; stroke-dashoffset: 0; animation: rainDrop 0.8s linear infinite; }
+@keyframes rainDrop { to { stroke-dashoffset: -10; transform: translateY(15px); opacity: 0; } }
+
+.anim-snow-spin { transform-origin: center; animation: spin 6s linear infinite; }
+
+.anim-wave-slide { animation: waveSlide 3s linear infinite; }
+@keyframes waveSlide { 0% { transform: translateX(-10px); } 50% { transform: translateX(10px); } 100% { transform: translateX(-10px); } }
+
+/* Object Scenes 动画 */
+.anim-door-open { transform-origin: -15px 0; animation: doorOpen 2s ease-in-out forwards 0.5s; }
+@keyframes doorOpen { 
+  0% { transform: perspective(200px) rotateY(0deg); } 
+  100% { transform: perspective(200px) rotateY(-60deg); } 
+}
+
+.anim-pulse-glow { animation: pulseGlow 2s infinite; }
+@keyframes pulseGlow { 0%, 100% { opacity: 0.3; transform: scale(1); } 50% { opacity: 0.8; transform: scale(1.1); } }
+
+/* Vehicle Scenes 动画 */
+.anim-road-move { stroke-dasharray: 10 20; stroke-dashoffset: 0; animation: roadMove 0.5s linear infinite; }
+@keyframes roadMove { to { stroke-dashoffset: -30; } }
+
+.anim-car-bounce { animation: carBounce 0.5s ease-in-out infinite alternate; }
+@keyframes carBounce { from { transform: translateY(0); } to { transform: translateY(-2px); } }
+
+.anim-wheel-spin { transform-origin: center; animation: spin 0.5s linear infinite; }
+
+/* Emotion/Action Scenes 动画 */
+.anim-heart-beat { animation: heartBeat 1.2s infinite; transform-origin: center; }
+@keyframes heartBeat {
+  0%, 100% { transform: scale(1); }
+  15% { transform: scale(1.15); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.15); }
+}
+
+.anim-shake { animation: shake 2s infinite; transform-origin: center bottom; }
+@keyframes shake {
+  0%, 100% { transform: rotate(0deg); }
+  10%, 30%, 50% { transform: rotate(-5deg); }
+  20%, 40%, 60% { transform: rotate(5deg); }
+  70% { transform: rotate(0deg); }
+}
+
+/* 渐隐显示层 */
+.anim-fade-in { opacity: 0; animation: simpleFade 0.8s ease forwards; }
+@keyframes simpleFade { to { opacity: 1; } }

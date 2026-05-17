@@ -1,0 +1,25 @@
+.particles-container {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.particles-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    url('/bg.png') center/cover no-repeat,
+    linear-gradient(135deg, var(--bg-primary) 0%, #0d1240 50%, #0a0e27 100%);
+  opacity: 0.5;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: floatParticle linear infinite;
+  filter: blur(0.5px);
+}
