@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import gsap from 'gsap';
 import { playAnimation, transitionOut, transitionIn } from '../animations';
-import { speak } from '../hooks/useAudio';
+import { speak, unlockAudio } from '../hooks/useAudio';
 import SceneIllustration from './SceneIllustration';
 import sentencesData from '../data/sentences.json';
 import './Practice.css';
@@ -85,6 +85,9 @@ export default function Practice({ sentences, category, onComplete, progress, se
 
   const handleOptionClick = (option) => {
     if (selectedOption !== null) return; // 已选过
+    
+    // 核心：在真正的点击事件中同步唤醒语音引擎
+    unlockAudio();
 
     setSelectedOption(option);
     const correct = option === currentSentence.core_framework;

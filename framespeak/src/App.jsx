@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import sentencesData from './data/sentences.json';
 import { getProgress, saveProgress, getDefaultProgress } from './hooks/useStorage';
+import { unlockAudio } from './hooks/useAudio';
 import Particles from './components/Particles';
 import Welcome from './components/Welcome';
 import Practice from './components/Practice';
@@ -59,6 +60,7 @@ export default function App() {
   }, [progress.streak]);
 
   const handleStart = () => {
+    unlockAudio();
     setProgress(prev => ({ ...prev, streak: 0 }));
     setView('practice');
   };
@@ -68,6 +70,7 @@ export default function App() {
   };
 
   const handleRestart = () => {
+    unlockAudio();
     setProgress(prev => ({
       ...getDefaultProgress(),
       favorites: prev.favorites || []
@@ -76,6 +79,7 @@ export default function App() {
   };
 
   const handleCategoryChange = (cat) => {
+    unlockAudio();
     setCategory(cat);
     if (view === 'practice') {
       setProgress(prev => ({ ...prev, streak: 0 }));
