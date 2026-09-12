@@ -72,6 +72,11 @@ function speakFallback(text, lang = 'en-US') {
 
 /**
  * 朗读英文句子（主入口）
+ *
+ * 部分国产手机自带浏览器（如 vivo/OPPO/华为浏览器）会静默拦截第三方
+ * 域名的音频请求：play() 的 Promise 既不 resolve 也不 reject，音频就是
+ * 卡住不出声，靠 catch() 是抓不到这种失败的。这里额外用一个超时兜底：
+ * 如果发起播放后一段时间音频仍未真正开始播放，就主动切换到 speechSynthesis。
  */
 export function speak(text) {
   if (!text) return;
@@ -88,11 +93,41 @@ export function speak(text) {
     audio.src = url;
   }
 
+  let settled = false;
+  const cleanup = () => {
+    clearTimeout(fallbackTimer);
+    audio.removeEventListener('playing', onPlaying);
+    audio.removeEventListener('error', onError);
+  };
+  const triggerFallback = () => {
+    if (settled) return;
+    settled = true;
+    cleanup();
+    speakFallback(text);
+  };
+  const onPlaying = () => {
+    settled = true;
+    cleanup();
+  };
+  const onError = () => triggerFallback();
+
+  audio.addEventListener('playing', onPlaying);
+  audio.addEventListener('error', onError);
+
+  // 在线音频没有在 1.5 秒内真正响起（被拦截/网络太慢），降级到 speechSynthesis
+  const fallbackTimer = setTimeout(() => {
+    if (audio.paused || audio.currentTime === 0) {
+      triggerFallback();
+    } else {
+      settled = true;
+    }
+  }, 1500);
+
   const playPromise = audio.play();
   if (playPromise && playPromise.catch) {
     playPromise.catch(() => {
       // 在线音频播放失败（离线、CORS、或首次需要手势），降级到 speechSynthesis
-      speakFallback(text);
+      triggerFallback();
     });
   }
 }
