@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import gsap from 'gsap';
 import { playAnimation, transitionOut, transitionIn } from '../animations';
-import { speak, unlockAudio } from '../hooks/useAudio';
+import { speak, preloadAudio } from '../hooks/useAudio';
 import SceneIllustration from './SceneIllustration';
 import sentencesData from '../data/sentences.json';
 import './Practice.css';
@@ -73,6 +73,8 @@ export default function Practice({ sentences, category, onComplete, progress, se
       setSelectedOption(null);
       setIsCorrect(null);
       chunksRef.current = [];
+      // 句子一出现就预加载发音，不自动播放，等用户随时点击播放按钮
+      preloadAudio(currentSentence.correct_english);
     }
   }, [currentIndex, currentSentence, generateOptions]);
 
@@ -103,14 +105,11 @@ export default function Practice({ sentences, category, onComplete, progress, se
 
       setPhase('result');
 
-      // 延迟播放动画
+      // 延迟播放动画（发音已预加载好，交给用户点击播放按钮，不做自动播放）
       setTimeout(() => {
         const chunks = chunksRef.current.filter(Boolean);
         if (chunks.length > 0) {
-          playAnimation(currentSentence.animation_type, chunks, () => {
-            // 朗读句子
-            speak(currentSentence.correct_english);
-          });
+          playAnimation(currentSentence.animation_type, chunks);
         }
       }, 300);
 

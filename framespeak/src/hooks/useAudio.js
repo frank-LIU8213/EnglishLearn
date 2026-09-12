@@ -6,6 +6,10 @@
  *      所有浏览器、所有设备都支持 <audio>，100% 兼容。
  *   2. 降级方案 → Web Speech API（speechSynthesis）
  *      仅在在线 TTS 加载失败（如离线/网络故障）时自动降级。
+ *
+ * 播放时机：句子出现时仅预加载音频（不播放），避免网络延迟导致
+ * 播放请求时音频还没就绪；实际播放完全由用户点击触发，不做自动播放，
+ * 这样才能稳定命中浏览器的自动播放策略（play() 必须来自真实的用户手势）。
  */
 
 // 复用同一个 Audio 实例，避免反复创建
@@ -14,6 +18,7 @@ function getAudio() {
   if (!_audio) {
     _audio = new Audio();
     _audio.volume = 1;
+    _audio.preload = 'auto';
   }
   return _audio;
 }
@@ -24,6 +29,19 @@ function getAudio() {
  */
 function getTTSUrl(text) {
   return `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(text)}&type=2`;
+}
+
+/**
+ * 预加载句子音频，句子出现时调用，只加载不播放
+ * 这样用户点击播放按钮时音频已经就绪，播放更即时、更不容易失败
+ */
+export function preloadAudio(text) {
+  if (!text) return;
+  const audio = getAudio();
+  const url = getTTSUrl(text);
+  if (audio.src === url) return; // 已经在加载/加载完成，无需重复触发
+  audio.src = url;
+  audio.load();
 }
 
 /**
@@ -58,12 +76,16 @@ export function speak(text) {
   if (!text) return;
 
   const audio = getAudio();
+  const url = getTTSUrl(text);
 
   // 停掉当前正在播放的
   audio.pause();
   audio.currentTime = 0;
 
-  audio.src = getTTSUrl(text);
+  // 如果已经预加载好同一个句子，直接复用，不重新触发网络请求
+  if (audio.src !== url) {
+    audio.src = url;
+  }
 
   const playPromise = audio.play();
   if (playPromise && playPromise.catch) {
