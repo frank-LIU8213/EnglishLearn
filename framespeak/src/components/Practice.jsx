@@ -124,7 +124,10 @@ export default function Practice({ sentences, category, onComplete, progress, se
         goNext();
       }, 4000);
     } else {
-      // 错误
+      // 错误：同样在点击事件的同步调用栈内直接播放正确发音，
+      // 让用户即使选错也能立刻听到标准读音
+      speak(currentSentence.correct_english);
+
       setShaking(true);
       setTimeout(() => setShaking(false), 400);
 
