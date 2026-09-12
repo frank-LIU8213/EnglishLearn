@@ -93,6 +93,12 @@ export default function Practice({ sentences, category, onComplete, progress, se
     setIsCorrect(correct);
 
     if (correct) {
+      // 播放发音：必须在点击事件的同步调用栈内直接触发，才能稳定通过
+      // 移动端浏览器的自动播放限制（放进 setTimeout / 动画回调里会因为
+      // 脱离用户手势而被静默拦截）。音频在句子出现时已经预加载好，这里
+      // 播放是即时的。
+      speak(currentSentence.correct_english);
+
       // 正确
       setProgress(prev => ({
         ...prev,
@@ -105,7 +111,7 @@ export default function Practice({ sentences, category, onComplete, progress, se
 
       setPhase('result');
 
-      // 延迟播放动画（发音已预加载好，交给用户点击播放按钮，不做自动播放）
+      // 延迟播放拼接动画（发音已在上面同步播放）
       setTimeout(() => {
         const chunks = chunksRef.current.filter(Boolean);
         if (chunks.length > 0) {
